@@ -1,0 +1,39 @@
+.separador2 {
+    height: 160px;
+    width: 100%;
+}
+
+.separador3 {
+    height: 104px;
+    width: 100%;
+}
+
+.separador4 {
+    height: 120px;
+    width: 100%;
+}
+
+.separador5 {
+    height: 80px;
+    width: 100%;
+}
+
+.separador6 {
+    height: 143.75px;
+    width: 100%;
+}
+
+.lineContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/***** Linea separatoria *****/
+.line {
+    width: 1418px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: rgba(191, 191, 191, 0.20);
+}

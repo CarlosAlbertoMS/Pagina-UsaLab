@@ -1,0 +1,7 @@
+/* CONTENEDOR DE LA VENTANA INVESTIGACIÓN */
+.investigacion-window-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1728px;
+    gap: 160px;
+}

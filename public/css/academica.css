@@ -1,0 +1,101 @@
+/*******Contenedor del Titulo carrusel Formacion Academica*******/
+.titulonosotros {
+    display: flex;
+    width: 1152px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 104px;
+    animation: titulonosotros 1.5s forwards;
+}
+
+/******Imagen del Carrusel******/
+.img1 {
+    width: 100%;
+    height: 880px;
+    object-fit: cover;
+    background: rgba(0, 0, 0, 0.30);
+    filter: brightness(75%);
+}
+
+/*****Texto del titulo*****/
+.titulonosotrostxt {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+}
+
+/******Contenedor del contenido del carrusel Nosotros*****/
+.contenidonosotros {
+    width: 1728px;
+    height: 248px;
+    display: flex;
+    margin-bottom: -40px;
+    margin-left: -260px;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+    justify-content: center;
+    align-items: center;
+    animation: contenidonosotros 1.5s forwards;
+}
+
+/*****Texto del contenido del carrusel Nosotros*****/
+.contenidonosotrostxt {
+    width: 1392px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #FFFCFC;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+}
+
+.separador2 {
+    height: 160px;
+    width: 100%;
+}
+
+.linea1 {
+    width: 696px;
+    height: 1px;
+    background: #000;
+}
+
+.separador3 {
+    height: 80px;
+    width: 100%;
+}
+
+.linea2 {
+    width: 941px;
+    height: 2px;
+    background: #000;
+}
+
+.separador3 {
+    height: 80px;
+    width: 100%;
+}
+
+.lineadiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linea3 {
+    width: 1613px;
+    height: 2px;
+    background: #0A0000;
+}

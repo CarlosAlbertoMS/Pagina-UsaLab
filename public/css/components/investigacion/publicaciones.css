@@ -1,0 +1,118 @@
+/**************** SECCIÓN: PUBLICACIONES ****************/
+
+/* Contenedor de la sección "Publicaciones" */
+.publicaciones-container {
+    width: 1728px;
+    height: 1180px;
+    display: grid;
+}
+
+/* Titulo "Publicaciones" */
+.publicaciones-title {
+    justify-self: center;
+    width: 399px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 81px;
+}
+
+/* Contenedor para la lista de publicaciones */
+.publicaciones-list {
+    justify-self: center;
+    width: 1328px;
+    height: 1040px;
+    /* gap: 40px; Se quita el gap para simular una sola linea*/
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+.publicacion-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Separador de la imagen y el contenido de la publicación */
+.vertical-line {
+    position: absolute;
+    left: 534px;
+    width: 1px;
+    height: 406.074px;
+    /* height: 8489px; */
+    background: #D7D7D7;
+}
+
+/* Tarjeta para cada publicación */
+.publication-card {
+    width: 1328px;
+    height: 406.074px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: relative;
+}
+
+/* Contenedor de la imagen de la publicación */
+.image-publication-card {
+    position: absolute;
+    top: 50px;
+    left: 35.85px;
+    width: 448.011px;
+    height: 305.691px;
+    flex-shrink: 0;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor del contenido de la publicación */
+.publication-card-content {
+    position: absolute;
+    top: 32px;
+    right: 36px;
+    width: 694px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Titulo de la publicación */
+.publication-card-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/* "Subtitulo de la publicación" */
+.publication-card-subtitle {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+/* Autores de la publicación */
+.publication-card-authors {
+    margin-top: 48px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}

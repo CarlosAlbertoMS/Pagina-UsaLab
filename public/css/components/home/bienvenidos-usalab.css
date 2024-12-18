@@ -1,0 +1,137 @@
+/****** Bienvenidos a UsaLab ******/
+/* Contenedor de la sección: "Bienvenidos a UsaLab"*/
+.bienvenidos-a-usalab-container {
+    margin-top: 86px;
+    height: 442px;
+    width: 1728px;
+}
+
+/* Titulo "Bienvenidos a UsaLab" */
+.bienvenidos-a-usalab-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Bienvenidos a UsaLab" */
+.content-bienvenidos-a-usalab {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../../../photos/bienvenidos-a-usalab.png") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Bienvenidos a UsaLab" */
+.bienvenidos-a-usalab-text {
+    margin-top: 53px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Nuestra Historia ******/
+/* Contenedor de la sección: "Nuestra Historia"*/
+.nuestra-historia-container {
+    margin-top: 45px;
+    height: 426px;
+    width: 1728px;
+}
+
+/* Titulo "Nuestra Historia" */
+.nuestra-historia-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Nuestra Historia" */
+.content-nuestra-historia {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../../../photos/nuestra-historia.png") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Nuestra Historia" */
+.nuestra-historia-text {
+    margin-top: 39px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Experiencias ******/
+/* Contenedor de la sección: "Experiencias"*/
+.experiencias-container {
+    margin-top: 53px;
+    height: 434px;
+    width: 1728px;
+}
+
+/* Titulo "Experiencias" */
+.experiencias-title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Contenido de la sección "Experiencias" */
+.content-experiencias {
+    width: 1728px;
+    height: 324px;
+    flex-shrink: 0;
+    background: url("../../../photos/experiencias.jpg") lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto de la sección "Experiencias" */
+.experiencias-text {
+    margin-top: 38px;
+    width: 1544px;
+    height: 215px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}

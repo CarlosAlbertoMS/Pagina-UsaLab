@@ -1,0 +1,108 @@
+/************************Ultimos eventos****************************/
+/*****************Fondo Ultimos eventos****************/
+.fondo-azul {
+    width: 1728px;
+    height: 912px;
+    flex-shrink: 0;
+    background: #F9F9F9;
+    margin-top: -400px;
+}
+
+.ultimoseventostxt {
+    color: #000;
+    width: 246px;
+    margin-top: -159px;
+    margin-left: 273px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/************ Contenedor de los eventos ***************/
+.eventosContainer {
+    width: 1010px;
+    height: 520px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-left: 712px;
+    margin-top: -327px;
+    display: flex;
+    gap: 24px;
+}
+
+.eventosContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container {
+    display: inline-block;
+}
+
+/************* Tarjetas ultimos eventos *************/
+.event-card {
+    display: flex;
+    width: 392px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Medium, 12px);
+    background: rgba(94, 159, 186, 0.20);
+    justify-content: center;
+}
+
+/***** Titulo de tarjeta ******/
+.title-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+/*****Contenido de la tarjeta*****/
+.text-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+/****** Contenido de la tarjetas ******/
+.content-event-card {
+    width: 328px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+#event1 {
+    margin-top: 355px;
+}
+
+#event2 {
+    margin-top: 296px;
+}
+
+#event3 {
+    margin-top: 352px;
+}
+
+#event1-card {
+    background: url("../../../photos/hci.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event2-card {
+    background: url("../../../photos/chi1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event3-card {
+    background: url("../../../photos/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}

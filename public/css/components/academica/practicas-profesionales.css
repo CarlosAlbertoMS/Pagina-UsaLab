@@ -1,0 +1,42 @@
+.requisitossCard {
+    display: flex;
+}
+
+.requisitossimg {
+    width: 1728px;
+    height: 418px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.requisitosstitulo {
+    width: 614px;
+    height: 134px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 113px;
+}
+
+.requisitossp {
+    width: 1079px;
+    height: 76px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 325px;
+}

@@ -1,0 +1,205 @@
+.pruebausalab {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+}
+
+.pruebausalabtxt {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.pruebausalabtitle {
+    width: 658px;
+    height: 82px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.pruebausalabp {
+    width: 687px;
+    height: 409px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.pruebausalabimg {
+    width: 624px;
+    height: 832px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Medium, 12px);
+}
+
+.pruebaslaboratorio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+}
+
+.pruebaslaboratoriotitle {
+    width: 312px;
+    height: 132px;
+    flex-shrink: 0;
+    color: #090000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pruebaslaboratoriotxt {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.pruebaslaboratoriop {
+    width: 941px;
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pruebas1 {
+    width: 1728px;
+    height: 513.677px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.usabilidad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+}
+
+.usabilidadtitle {
+    width: 311px;
+    color: #0B0000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.usabilidadcont {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+}
+
+.usabilidadp {
+    width: 941px;
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pruebas2 {
+    width: 1728px;
+    height: 484.571px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.heuristica {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+}
+
+.heuristicatitle {
+    width: 313px;
+    color: #0C0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.heuristicacont {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.heuristicap {
+    width: 941px;
+    height: 428px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.requisitosp {
+    display: flex;
+}
+
+.requisitosptitle {
+    width: 606px;
+    color: #0B0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.requisitoss {
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.requisitosstitle {
+    width: 606px;
+    color: #0B0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

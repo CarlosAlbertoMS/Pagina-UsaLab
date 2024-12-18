@@ -1,0 +1,132 @@
+/**************** SECCIÓN: INVESTIGACIONES MÁS DESTACADAS ****************/
+
+/* Contenedor para la sección "Investigaciones más destacadas" */
+.investigaciones-mas-destacadas-container {
+    width: 1728px;
+    height: 1483px;
+    display: grid;
+    gap: 80px;
+}
+
+/* Titulo "Investigaciones más destacadas" */
+.investigaciones-mas-destacadas-title {
+    justify-self: center;
+    width: 932px;
+    height: 61px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Contenedor para la investigación */
+.research-container {
+    width: 1728px;
+    height: 631px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: background 1.0s ease;
+}
+
+/* Imagen de fondo de la primer investigación */
+#investigacion-1 {
+    background: url("../../../photos/investigacion-destacada-1.png")lightgray 50% / cover no-repeat;
+}
+
+/* Animación para el fondo de la primer investigación */
+#investigacion-1:hover {
+    background: url("../../../photos/investigacion-destacada-1-hover.png")lightgray 50% / cover no-repeat;
+}
+
+/* Imagen de fondo de la segunda investigación */
+#investigacion-2 {
+    background: url("../../../photos/investigacion-destacada-2.png")lightgray 50% / cover no-repeat;
+}
+
+/* Animación para el fondo de la primer investigación */
+#investigacion-2:hover {
+    background: url("../../../photos/investigacion-destacada-2-hover.png")lightgray 50% / cover no-repeat;
+}
+
+/* Titulo de las investigaciones más destacadas */
+.investigacion-destacada-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    width: 1060px;
+    flex-shrink: 0;
+    margin-top: 263px;
+    transition: width 1.0s, height 1.0s, font-size 1.0s ease, letter-spacing 1.0s ease, margin-top 1.0s ease;
+}
+
+/* Configuración para el contenedor del titulo de la investigación destacada 1 */
+#investigacion-destacada-1 {
+    height: 56px;
+}
+
+/* Configuración para el contenedor del titulo de la investigación destacada 2 */
+#investigacion-destacada-2 {
+    height: 125px;
+}
+
+/* Animación para el titulo de la investigación destacada 1 */
+#investigacion-1:hover .investigacion-destacada-title {
+    font-size: 48px;
+    letter-spacing: 0.48px;
+    width: 924px;
+    height: 56px;
+    margin-top: 107px;
+}
+
+/* Animación para el titulo de la investigación destacada 2 */
+#investigacion-2:hover .investigacion-destacada-title {
+    font-size: 48px;
+    letter-spacing: 0.48px;
+    width: 721px;
+    height: 125px;
+    margin-top: 76px;
+}
+
+.line {
+    width: 1136px;
+    height: 2px;
+    background: #FFF;
+}
+
+.descripcion-investigacion {
+    width: 1338px;
+    height: 194px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/* Esconder los elementos mientras no hay hover en investigación */
+.line, .descripcion-investigacion { 
+    display: none; 
+} 
+
+/* Animación para mostrar los elementos al hacer hover en investigación 1 */
+#investigacion-1:hover .line, #investigacion-1:hover .descripcion-investigacion { 
+    display: block;
+}
+
+/* Animación para mostrar los elementos al hacer hover en investigación 2 */
+#investigacion-2:hover .line, #investigacion-2:hover .descripcion-investigacion { 
+    display: block;
+}

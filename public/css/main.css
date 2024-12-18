@@ -1,0 +1,598 @@
+/******************************header*******************************/
+.container1 {
+    width: 1728px;
+    height: auto;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    opacity: 0;
+    overflow: hidden;
+    animation: aparecer 1s forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1.5;
+    }
+}
+
+.header {
+    width: 1728px;
+    height: 152px;
+    flex-shrink: 0;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoutm {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+    margin-left: -112px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    animation: logoutm 1s forwards;
+}
+
+@keyframes logoutm {
+    to {
+        margin-left: 112px;
+    }
+}
+
+.logousalab {
+    width: 136px;
+    height: 128px;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-right: -112px;
+    margin-top: 16px;
+    transform: scale(1.4);
+    animation: logousalab 1s forwards;
+}
+
+@keyframes logousalab {
+    to {
+        margin-right: 112px;
+    }
+}
+
+/**********************Barra de novegacion****************************/
+
+.navbar1 {
+    width: 1728px;
+    height: 56px;
+    flex-shrink: 0;
+    background: #06052D;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Seccion de inicio*/
+.inicio {
+    display: flex;
+    width: 128px;
+    padding: 13.5px 30px;
+    margin-left: 81px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.inicio:hover {
+    background: #58A3C1;
+}
+
+.iniciotxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Seccion acerca de*/
+.acercade {
+    display: flex;
+    width: 192px;
+    padding: 13.5px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.acercadeCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.acercade:hover {
+    background: #58A3C1;
+}
+
+.acercadeCont .adcontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 18.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.acercadeCont .adcontent:hover {
+    background-color: #06052D;
+}
+
+.acercade:hover .acercadeCont {
+    display: flex;
+    flex-direction: column
+}
+/*Texto de la barra de navegacion*/
+.navbartxt {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/*Seccion servicios*/
+.servicios {
+    display: flex;
+    width: 192px;
+    padding: 13.5px 43px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.servicios:hover {
+    background: #58A3C1;
+}
+
+.serviciosCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.serviciosCont .srcontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 18.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.serviciosCont .srcontent:hover {
+    background-color: #06052D;
+}
+
+.servicios:hover .serviciosCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion servicios-industria*/
+.servicioindustriaCont {
+    display: none;
+    position: absolute;
+    top: -0px;
+    left: 192px;
+    background: #58A3C1;
+    z-index: 1;
+}
+
+.servicioindustriaCont .sricontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 8.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.servicioindustriaCont .sricontent:hover {
+    background-color: #06052D;
+}
+
+.srcontent:hover .servicioindustriaCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion servicios-academia*/
+.servicioacademiaCont {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 192px;
+    background: #58A3C1;
+    z-index: 1;
+}
+
+.servicioacademiaCont .sracontent {
+    color: #FFF;
+    width: 192px;
+    padding: 13.5px 8.5px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.servicioacademiaCont .sracontent:hover {
+    background-color: #06052D;
+}
+
+.srcontent:hover .servicioacademiaCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion investigaciones*/
+.investigaciones {
+    display: flex;
+    width: 217px;
+    padding: 13.5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.investigaciones:hover {
+    background: #58A3C1;
+}
+
+.investigacionesCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.investigacionesCont .incontent {
+    color: #FFF;
+    width: 217px;
+    padding: 13.5px 11px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.investigacionesCont .incontent:hover {
+    background-color: #06052D;
+}
+
+.investigaciones:hover .investigacionesCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion formacion academica*/
+.formacion {
+    display: inline-flex;
+    padding: 13.5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.formacion:hover {
+    background: #58A3C1;
+}
+
+.formacionCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.formacionCont .facontent {
+    color: #FFF;
+    width: 302px;
+    padding: 13.5px 10px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.formacionCont .facontent:hover {
+    background-color: #06052D;
+}
+
+.formacion:hover .formacionCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion eventos*/
+.eventos {
+    display: flex;
+    width: 180px;
+    padding: 13.5px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.eventos:hover {
+    background: #58A3C1;
+}
+
+.eventosCont {
+    display: none;
+    position: absolute;
+    top: 208px;
+    background: #A4C732;
+    z-index: 1;
+}
+
+.eventosCont .evcontent {
+    color: #FFF;
+    width: 180px;
+    padding: 13.5px 10px;
+    box-sizing: border-box;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.eventosCont .evcontent:hover {
+    background-color: #06052D;
+}
+
+.eventos:hover .eventosCont {
+    display: flex;
+    flex-direction: column
+}
+
+/*Seccion idionas*/
+.idioma {
+    display: inline-flex;
+    width: 180px;
+    padding: 13.5px 55px 13.5px 42px;
+    align-items: center;
+    gap: 4px;
+    box-sizing: border-box;
+    background: #06052D;
+    transition: background-color 0.5s ease;
+}
+
+.idioma:hover {
+    background: #58A3C1;
+}
+
+.idiomatxt {
+    display: flex;
+    width: 50px;
+    height: 29px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.separador {
+    height: 56px;
+    width: 100%;
+}
+
+/***********************Carrusel*********************/
+.titulousalab{
+    display: flex;
+    width: 1152px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: -384px;
+    animation: titulousalab 1.5s forwards;
+}
+
+@keyframes titulousalab {
+    to {
+        margin-bottom: 104px;
+    }
+}
+
+.img1{
+    background: rgba(0, 0, 0, 0.30);
+    filter: brightness(50%);
+}
+
+.titulousalabtxt {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+}
+
+.contenidousalab {
+    width: 1728px;
+    height: 248px;
+    display: flex;
+    margin-bottom: -288px;
+    margin-left: -260px;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+    justify-content: center;
+    align-items: center;
+    animation: contenidousalab 1.5s forwards;
+}
+
+@keyframes contenidousalab {
+    to{
+        margin-bottom: -40px;
+    }
+    
+}
+
+.contenidousalabtxt {
+    width: 1392px;
+    height: 152px;
+    flex-shrink: 0;
+    color: #FFFCFC;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+}
+
+/********************************************************footer**************************************************************/
+footer {
+    width: 1728px;
+    height: 580px;
+    flex-shrink: 0;
+    opacity: 0.95;
+    background: #06052D;
+    display: flex;
+    overflow: hidden;
+}
+
+.footerinformacion {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    align-items: flex-start;
+    margin-left: 194px;
+    justify-content: center;
+}
+
+.logosfooter {
+    display: flex;
+    gap: 90px;
+}
+
+.utmfooter {
+    width: 147px;
+    height: 147px;
+    object-fit: cover;
+    flex-shrink: 0;
+    object-position: 50% 68%;
+}
+
+.usalabfooter {
+    width: 156px;
+    height: 149px;
+    flex-shrink: 0;
+    object-fit: cover;
+    transform: scale(1.4);
+    filter: brightness(0) invert(1);
+}
+
+.sf1 {
+    width: 100%;
+    height: 45px;
+}
+
+.footertxt {
+    width: 504px;
+    height: 120px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sf2 {
+    width: 100%;
+    height: 24px;
+}
+
+.logoslink {
+    display: flex;
+    gap: 40px;
+}
+
+.footermenu{
+    width: 1032px;
+    height: 100%;
+}
+
+.menurapido{
+    margin-top: 56px;
+    margin-left: 65px;
+}
+
+.menurapidotxt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footeroptions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.optiontxt {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.optiontxt:hover::before {
+    content: "<";
+}
+
+.optiontxt:hover::after {
+    content: ">";
+}

@@ -1,0 +1,131 @@
+/**************** SECCIÓN: PROYECTOS ACTUALES ****************/
+
+/* Contenedor de la sección "Proyectos actuales" */
+.proyectos-actuales-container {
+    width: 1728px;
+    height: 1320px;
+    display: grid;
+}
+
+
+/* Titulo "Proyectos actuales" */
+.proyectos-actuales-title {
+    justify-self: center;
+    width: 545px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Contendor para los proyectos */
+.project-container {
+    position: relative;
+    width: 1552px;
+    height: 536px;
+    flex-shrink: 0;
+    background: #06052D;
+}
+
+/* Ajuste para el contenedor que está posicionado a la izquierda */
+#left-project {
+    justify-self: left;
+    margin-top: 80px;
+}
+
+/* Ajuste para el contenedor que está posicionado a la derecha */
+#right-project {
+    justify-self: right;
+    margin-top: 104px;
+}
+
+/* Contenedor para la imagen del proyecto */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+}
+
+/* Ajuste de posición para la imagen que va posicionada a la izquierda */
+#left-image {
+    width: 464px;
+    height: 416px;
+    left: 216px;
+}
+
+/* Ajuste de posición para la imagen que va posicionada a la derecha */
+#right-image {
+    width: 465px;
+    height: 414px;
+    right: 224px;
+}
+
+/* Contenedor para el contenido del proyecto */
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    width: 768px;
+    height: 464px;
+    position: absolute;
+    top: 72px;
+}
+
+/* Ajuste para el contenedor del proyecto posicionado a la izquierda */
+#left-project-content {
+    right: 48px;
+}
+
+/* Ajuste para el contenedor del proyecto posicionado a la derecha */
+#right-project-content {
+    left: 48px;
+}
+
+/* Titulo del proyecto */
+.project-title {
+    width: 616px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+/* Linea separadora entre el titulo y la descripción */
+.content-line {
+    width: 736px;
+    height: 2px;
+    background: #FFF;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+/* Descripción del proyecto */
+.project-description {
+    width: 768px;
+    height: 176px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
