@@ -32,3 +32,11 @@ Route::get('/thanks', function(){
 Route::get('/academica', function(){
     return view('academica');
 });
+
+Route::get('/servicios-academia', function () {
+    return view('servicios-academia');
+});
+
+Route::get('/servicios-industria', function () {
+    return view('servicios-industria');
+});
