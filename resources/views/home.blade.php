@@ -46,12 +46,16 @@ UsaLab<br /><br>Laboratorio de Usabilidad
 <div class="separador2"></div>
 
 <!-- Seccion principal de tarjetas (Nuestros servicios, Nosotros, Investigacion) -->
-<x-home.tarjetas-principal />
-<!-- Termina seccion principal de tarjetas -->
+ <div class="tarjetas-home">
+    <x-home.tarjetas-principal />
+    <!-- Termina seccion principal de tarjetas -->
 
-<!-- Seccion ultimos eventos -->
-<x-home.ultimos-eventos />
+    <!-- Seccion ultimos eventos -->
+    <x-home.ultimos-eventos />
 <!-- Termina seccion ultimos eventos -->
+
+ </div>
+
 
 <!-- Seccion Bienvenidos usalab -->
 <x-home.bienvenidos-usalab />

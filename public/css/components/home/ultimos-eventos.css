@@ -1,7 +1,11 @@
 /************************Ultimos eventos****************************/
+.contenedorEventos{
+    width: 100%;
+    height: auto;
+}
 /*****************Fondo Ultimos eventos****************/
 .fondo-azul {
-    width: 1728px;
+    width: 100%;
     height: 912px;
     flex-shrink: 0;
     background: #F9F9F9;
@@ -28,7 +32,7 @@
     height: 520px;
     overflow-x: auto;
     scrollbar-width: none;
-    margin-left: 712px;
+    float: right;
     margin-top: -327px;
     display: flex;
     gap: 24px;

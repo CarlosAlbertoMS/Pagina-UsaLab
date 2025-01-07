@@ -1,12 +1,16 @@
 /******************************header*******************************/
 .container1 {
-    width: 1728px;
+    width: 100%;
+    /*max-width: 1720px;*/
     height: auto;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: auto;
     opacity: 0;
     overflow: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     animation: aparecer 1s forwards;
 }
 
@@ -17,7 +21,7 @@
 }
 
 .header {
-    width: 1728px;
+    width: 100%;
     height: 152px;
     flex-shrink: 0;
     display: flex;
@@ -62,7 +66,7 @@
 /**********************Barra de novegacion****************************/
 
 .navbar1 {
-    width: 1728px;
+    width: 100%;
     height: 56px;
     flex-shrink: 0;
     background: #06052D;
@@ -438,6 +442,7 @@
 
 .img1{
     background: rgba(0, 0, 0, 0.30);
+    width: 100%;
     filter: brightness(50%);
 }
 
@@ -453,8 +458,12 @@
     letter-spacing: 0.8px;
 }
 
+.contenido1 {
+    width: 100%;
+}
+
 .contenidousalab {
-    width: 1728px;
+    width: 100%;
     height: 248px;
     display: flex;
     margin-bottom: -288px;

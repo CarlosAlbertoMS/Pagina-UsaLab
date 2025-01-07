@@ -29,6 +29,12 @@
     justify-content: center;
 }
 
+/************ Contenedor de tarjetas *************/
+.harjetas-home {
+    width: 100%;
+    height: auto;
+}
+
 /***** Linea separatoria *****/
 .line {
     width: 1418px;
