@@ -168,7 +168,7 @@
 
           <!-- Seccion Eventos -->
           <div class="eventos">
-            <div class="navbartxt">Eventos</div>
+            <div onclick="window.location.href='{{ url('/eventos') }}'" class="navbartxt">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
                 <div class="navbartxt">Últimos Eventos</div>
