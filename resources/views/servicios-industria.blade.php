@@ -1,19 +1,26 @@
 @extends('layouts.main')
 
 @section('cssp')
-<link href="{{ asset('css/investigacion.css') }}" type="text/css" rel="stylesheet">
+<!-- Hoja de estilos de la ventana "Servicios: Industria" -->
+<link rel="stylesheet" href="{{ asset('css/servicios-industria.css') }}">
+
+<!-- Hoja de estilos de la sección "Servicios para la industria" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/servicios-para-la-industria.css') }}">
+
+<!-- Hoja de estilos de la sección "Estudios de Usabilidad" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/estudios-de-usabilidad.css') }}">
 
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
 
-@section('title','Investigaciones')
+@section('title','Servicios: Industria')
 
 @section('content')
-    <!-- Contenedor para la ventana Investigación -->
-    <div class="investigacion-window-container">
-        <!-- Contenedor para la sección "Investigación" (Titulo y descripción) -->
-        <div class="investigacion-container">
+    <!-- Contenedor para la ventana Servicios: Industria -->
+    <div class="servicios-industria-window-container">
+        <!-- Contenedor para la sección "Servicios: Industria" (Titulo y descripción) -->
+        <div class="servicios-industria-container">
             <!-- Carrousel -->
             @section('img')
             <div class="carousel-item">
@@ -30,16 +37,22 @@
             </div>
             @endsection
     
-            <!-- Titulo "Investigeación -->
+            <!-- Titulo "Servicios: Industria" -->
             @section('tituloc')
             <br><br>Servicios: Industria
             @endsection
     
-            <!-- Descripción de la página Investigación -->
+            <!-- Descripción de la página Servicios: Industria -->
             @section('contc','En UsaLab, el Laboratorio de Usabilidad de la UTM, promovemos la usabilidad y la interacción humano-computadora (HCI). Apoyamos a la academia e industria con servicios que mejoran la experiencia del usuario y el diseño de interfaces, satisfaciendo las necesidades de estudiantes, investigadores y empresas.')
         </div>
 
-        
+        <!-- Sección "Servicios para la industria" -->        
+        <x-servicios-industria.servicios-para-la-industria />
+
+        <div class="separador1"></div>
+
+        <!-- Sección "Estudios de Usabilidad" -->
+        <x-servicios-industria.estudios-de-usabilidad />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
