@@ -10,6 +10,9 @@
 <!-- Hoja de estilos de la sección "Estudios de Usabilidad" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/estudios-de-usabilidad.css') }}">
 
+<!-- Hoja de estilos de la sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/tecnicas-de-estudio-de-usabilidad.css') }}">
+
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
@@ -53,6 +56,9 @@
 
         <!-- Sección "Estudios de Usabilidad" -->
         <x-servicios-industria.estudios-de-usabilidad />
+        
+        <!-- Sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
+        <x-servicios-industria.tecnicas-de-estudio-de-usabilidad />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
