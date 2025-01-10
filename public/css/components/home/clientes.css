@@ -27,8 +27,8 @@
 }
 
 .clientes-container {
-    width: 1697px;
-    height: 488px;
+    width: 98%;
+    aspect-ratio: 1697 / 488;
     overflow: hidden;
     position: relative;
 }

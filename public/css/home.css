@@ -30,9 +30,17 @@
 }
 
 /************ Contenedor de tarjetas *************/
-.harjetas-home {
+.tarjetas-home {
     width: 100%;
     height: auto;
+}
+
+.fondo-azul {
+    width: 100%;
+    height: 912px;
+    flex-shrink: 0;
+    background: #F9F9F9;
+    margin-top: -400px;
 }
 
 /***** Linea separatoria *****/

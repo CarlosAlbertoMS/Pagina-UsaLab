@@ -1,4 +1,4 @@
-/*******************Principal de tarjetas*******************/
+/****************Principal de tarjetas****************/
 .cards-container {
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
     font-size: 24px;
 }
 
-/*******************Fondos de las tarjetas prinicipales********************/
+/************Fondos de las tarjetas prinicipales**************/
 #nuestros-servicios-card {
     background: url("../../../photos/nuestros-servicios.png") lightgray 50% / cover no-repeat;
 }

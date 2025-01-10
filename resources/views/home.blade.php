@@ -49,7 +49,9 @@ UsaLab<br /><br>Laboratorio de Usabilidad
  <div class="tarjetas-home">
     <x-home.tarjetas-principal />
     <!-- Termina seccion principal de tarjetas -->
-
+    <!-- Campo del fondo de las tarjetas de la pagina -->
+<div class="fondo-azul">
+</div>
     <!-- Seccion ultimos eventos -->
     <x-home.ultimos-eventos />
 <!-- Termina seccion ultimos eventos -->

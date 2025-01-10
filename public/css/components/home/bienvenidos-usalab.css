@@ -3,7 +3,7 @@
 .bienvenidos-a-usalab-container {
     margin-top: 86px;
     height: 442px;
-    width: 1728px;
+    width: 100%;
 }
 
 /* Titulo "Bienvenidos a UsaLab" */
@@ -20,7 +20,7 @@
 
 /* Contenido de la sección "Bienvenidos a UsaLab" */
 .content-bienvenidos-a-usalab {
-    width: 1728px;
+    width: 100%;
     height: 324px;
     flex-shrink: 0;
     background: url("../../../photos/bienvenidos-a-usalab.png") lightgray 50% / cover no-repeat;
@@ -49,7 +49,7 @@
 .nuestra-historia-container {
     margin-top: 45px;
     height: 426px;
-    width: 1728px;
+    width: 100%;
 }
 
 /* Titulo "Nuestra Historia" */
@@ -66,7 +66,7 @@
 
 /* Contenido de la sección "Nuestra Historia" */
 .content-nuestra-historia {
-    width: 1728px;
+    width: 100%;
     height: 324px;
     flex-shrink: 0;
     background: url("../../../photos/nuestra-historia.png") lightgray 50% / cover no-repeat;
@@ -95,7 +95,7 @@
 .experiencias-container {
     margin-top: 53px;
     height: 434px;
-    width: 1728px;
+    width: 100%
 }
 
 /* Titulo "Experiencias" */
@@ -112,7 +112,7 @@
 
 /* Contenido de la sección "Experiencias" */
 .content-experiencias {
-    width: 1728px;
+    width: 100%;
     height: 324px;
     flex-shrink: 0;
     background: url("../../../photos/experiencias.jpg") lightgray 50% / cover no-repeat;

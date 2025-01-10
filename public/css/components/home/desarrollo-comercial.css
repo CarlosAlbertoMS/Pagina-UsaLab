@@ -1,8 +1,8 @@
 /****** Desarrollo comercial *****/
 .desarrollocomercial {
     margin-top: 160px;
-    width: 1728px;
-    height: 544px;
+    width: 100%;
+    aspect-ratio: 1728 / 544;
     flex-shrink: 0;
     overflow: hidden;
     background: #06052D;
@@ -22,8 +22,8 @@
 
 /****** Fondo mundo "desarrollo comercial" *****/
 .imagenmundo1 {
-    width: 1728px;
-    height: 544px;
+    width: 100%;
+    aspect-ratio: 1728 / 544;
     opacity: 0.5;
     object-fit: cover;
     flex-shrink: 0;

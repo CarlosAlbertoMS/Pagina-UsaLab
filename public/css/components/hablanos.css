@@ -2,7 +2,7 @@
 
 /* Contenedor de la sección "Háblanos de tu proyecto" */
 .hablanosContainer {
-    width: 1728px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 156px;

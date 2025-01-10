@@ -1,7 +1,3 @@
-<!-- Campo del fondo de las tarjetas de la pagina -->
-<div class="fondo-azul">
-</div>
-
 <!-- Contendor de ultimos eventos -->
 <div class="contenedorEventos">
   <!-- Seccion ultimos eventos -->
