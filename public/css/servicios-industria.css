@@ -6,9 +6,18 @@
 }
 
 /* Estilos del primer tipo de separador */
-.separador1 {
+.separador1ServiciosIndustria {
     margin-top: 80px;
     margin-bottom: 113px;
+    width: 1518px;
+    height: 1px;
+    background: #000;
+}
+
+/* Estilos del segundo tipo de separador */
+.separador2ServiciosIndustria {
+    margin-top: 160px;
+    margin-bottom: 160px;
     width: 1518px;
     height: 1px;
     background: #000;

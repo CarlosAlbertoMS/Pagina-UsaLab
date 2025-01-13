@@ -8,14 +8,14 @@
     <!-- Texto de la sección -->
     <div class="tecnicasDeEstudioDeUsabilidadText">En los estudios de usabilidad se utilizan diversas técnicas que permiten evaluar cómo interactúan los usuarios con un producto o sistema. Estas técnicas incluyen pruebas directas con usuarios, evaluaciones expertas y análisis basados en datos. Cada técnica tiene su propio enfoque y objetivo, desde la identificación de problemas de diseño hasta la mejora de la experiencia del usuario.</div>
     <!-- Contenedor de las card de técnicas -->
-     <div class="tecnicasDeEstudioDeUsabilidadCardsContainer">
+    <div class="tecnicasDeEstudioDeUsabilidadCardsContainer">
         
         <!-- Card de técnica -->
-         <div class="tecnicasDeEstudioDeUsabilidadCards">
+        <div class="tecnicasDeEstudioDeUsabilidadCards">
             <!-- Título de la card -->
             <div class="tecnicasDeEstudioDeUsabilidadCardTitle">Pruebas de Usuario</div>
             <!-- Texto de la card -->
-            <div class="tecnicasDeEstudioDeUsabilidadCardText">Observar cómo los usuarios interactúan con el producto en situaciones controladas, para identificar problemas de usabilidad.</div>
+            <div class="tecnicasDeEstudioDeUsabilidadCardText">Observar cómo los usuarios interactúan con el producto en situaciones controladas, para identificar problemas de usabilidad</div>
         </div>
 
         <!-- Card de técnica -->
@@ -31,7 +31,7 @@
             <!-- Título de la card -->
             <div class="tecnicasDeEstudioDeUsabilidadCardTitle">Pruebas A/B</div>
             <!-- Texto de la card -->
-            <div class="tecnicasDeEstudioDeUsabilidadCardText">Método compara dos versiones de un producto (versión A y versión B) para determinar cuál es más efectiva.</div>
+            <div class="tecnicasDeEstudioDeUsabilidadCardText">Método compara dos versiones de un producto (versión A y versión B) para determinar cuál es más efectiva</div>
         </div>
 
         <!-- Card de técnica -->
@@ -39,7 +39,7 @@
             <!-- Título de la card -->
             <div class="tecnicasDeEstudioDeUsabilidadCardTitle">Card Sorting</div>
             <!-- Texto de la card -->
-            <div class="tecnicasDeEstudioDeUsabilidadCardText">Permite a los usuarios organizar tarjetas con nombres o categorías relacionadas con el contenido o las funcionalidades del producto.</div>
+            <div class="tecnicasDeEstudioDeUsabilidadCardText">Permite a los usuarios organizar tarjetas con nombres o categorías relacionadas con el contenido o las funcionalidades del producto</div>
         </div>
 
         <!-- Card de técnica -->
@@ -47,7 +47,7 @@
             <!-- Título de la card -->
             <div class="tecnicasDeEstudioDeUsabilidadCardTitle">Focus Groups</div>
             <!-- Texto de la card -->
-            <div class="tecnicasDeEstudioDeUsabilidadCardText">Se reúnen pequeños grupos de usuarios para discutir y dar su opinión sobre un producto o prototipo.</div>
+            <div class="tecnicasDeEstudioDeUsabilidadCardText">Se reúnen pequeños grupos de usuarios para discutir y dar su opinión sobre un producto o prototipo</div>
         </div>
 
      </div>

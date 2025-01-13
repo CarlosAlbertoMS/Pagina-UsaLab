@@ -13,6 +13,9 @@
 <!-- Hoja de estilos de la sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/tecnicas-de-estudio-de-usabilidad.css') }}">
 
+<!-- Hoja de estilos de la sección "Consultorí en UX/UI" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/consultoria-en-u-x-u-i.css') }}">
+
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
@@ -52,13 +55,23 @@
         <!-- Sección "Servicios para la industria" -->        
         <x-servicios-industria.servicios-para-la-industria />
 
-        <div class="separador1"></div>
+        <!-- Separador primer tipo -->
+        <div class="separador1ServiciosIndustria"></div>
 
         <!-- Sección "Estudios de Usabilidad" -->
         <x-servicios-industria.estudios-de-usabilidad />
         
         <!-- Sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
         <x-servicios-industria.tecnicas-de-estudio-de-usabilidad />
+        
+        <!-- Separador segundo tipo -->
+        <div class="separador2ServiciosIndustria"></div>
+        
+        <!-- Sección "Consultoría en UX/UI" -->
+        <x-servicios-industria.consultoria-en-u-x-u-i />
+
+        <!-- Separador segundo tipo -->
+        <div class="separador2ServiciosIndustria"></div>
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />

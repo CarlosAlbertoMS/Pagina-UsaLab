@@ -30,12 +30,16 @@
 .lineas-de-investigacion-list {
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
-    scrollbar-width: none;
-    width: 1226px;
+    overflow-y: hidden;
+    width: 1257px;
     height: 876px;
     flex-shrink: 0;
     gap: 90px;
+}
+
+/* Muestra la barra de desplazamiento al hacer hover */
+.lineas-de-investigacion-list:hover {
+    overflow-y: auto;
 }
 
 /* Tarjeta para las líneas de investigación */
