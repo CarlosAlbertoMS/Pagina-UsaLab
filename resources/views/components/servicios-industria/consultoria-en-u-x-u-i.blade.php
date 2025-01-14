@@ -1,4 +1,4 @@
-<div class="consultoriaEnUX-UIContainer">
+<div id="consultoria-de-UX-UI" class="consultoriaEnUX-UIContainer">
     <!-- Titulo de la sección -->
     <div class="consultoriaEnUX-UITitle">Consultoría en UX/UI</div>
     <!-- Contenedor del contenido de la sección -->

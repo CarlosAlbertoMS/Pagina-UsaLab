@@ -1,5 +1,5 @@
 <!-- Contenedor de la sección -->
-<div class="estudiosDeUsabilidadContainer">
+<div id="estudios-de-usabilidad" class="estudiosDeUsabilidadContainer">
     <!-- Titulo de la sección -->
     <div class="estudiosDeUsabilidadTitle">Estudios de Usabilidad</div>
     <!-- Contenedor del contenido de la sección -->
