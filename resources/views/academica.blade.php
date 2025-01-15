@@ -6,10 +6,13 @@
     <link href="{{ asset('css/academica.css') }}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/components/academica/pruebas-usabilidad.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/academica/practicas-profesionales.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/components/academica/servicio-social.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/components/academica/tesis.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
 
 <!-- Titulo de la pestaña de la página -->
-@section('title', 'Formacion Academica')
+@section('title', 'Formación Académica')
 
 <!-- Empieza el contenido de la página -->
 @section('content')
@@ -47,6 +50,22 @@ Formacion Académica
 
     <!-- Carrusel Servicio Social -->
     <x-academica.servicio-social />
+
+    <div class="separador2"></div>
+    <div class="lineadiv">
+        <div class="linea3"></div>
+    </div>
+    <div class="separador2"></div>
+
+    <x-academica.tesis />
+
+    <div class="separador2"></div>
+    <div class="lineadiv">
+        <div class="linea3"></div>
+    </div>
+    <div class="separador2"></div>
+
+    <x-hablanos />
     
 
 @endsection
