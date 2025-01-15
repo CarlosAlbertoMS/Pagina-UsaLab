@@ -5,14 +5,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 156px;
 }
 
 /* Subcontenedor de la sección "Hablanos de tu proyecto" */
 .hablanos {
     display: flex;
-    width: 1185px;
-    height: 360px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@
 
 /* Texto de la sección */
 .hablanos-text {
-    width: 1185px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #000;
     text-align: center;

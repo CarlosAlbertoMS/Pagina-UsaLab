@@ -2,7 +2,7 @@
 /* Contenedor de la sección: "Bienvenidos a UsaLab"*/
 .bienvenidos-a-usalab-container {
     margin-top: 86px;
-    height: 442px;
+    height: auto;
     width: 100%;
 }
 
@@ -21,7 +21,9 @@
 /* Contenido de la sección "Bienvenidos a UsaLab" */
 .content-bienvenidos-a-usalab {
     width: 100%;
-    height: 324px;
+    height: auto;
+    min-height: 324px;
+    padding: 53px 5%;
     flex-shrink: 0;
     background: url("../../../photos/bienvenidos-a-usalab.png") lightgray 50% / cover no-repeat;
     display: flex;
@@ -30,9 +32,8 @@
 
 /* Texto de la sección "Bienvenidos a UsaLab" */
 .bienvenidos-a-usalab-text {
-    margin-top: 53px;
-    width: 1544px;
-    height: 215px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -48,7 +49,7 @@
 /* Contenedor de la sección: "Nuestra Historia"*/
 .nuestra-historia-container {
     margin-top: 45px;
-    height: 426px;
+    height: auto;
     width: 100%;
 }
 
@@ -67,7 +68,9 @@
 /* Contenido de la sección "Nuestra Historia" */
 .content-nuestra-historia {
     width: 100%;
-    height: 324px;
+    height: auto;
+    min-height: 324px;
+    padding: 53px 5%;
     flex-shrink: 0;
     background: url("../../../photos/nuestra-historia.png") lightgray 50% / cover no-repeat;
     display: flex;
@@ -76,9 +79,8 @@
 
 /* Texto de la sección "Nuestra Historia" */
 .nuestra-historia-text {
-    margin-top: 39px;
-    width: 1544px;
-    height: 215px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
@@ -115,6 +117,7 @@
     width: 100%;
     height: 324px;
     flex-shrink: 0;
+    padding: 53px 5%;
     background: url("../../../photos/experiencias.jpg") lightgray 50% / cover no-repeat;
     display: flex;
     justify-content: center;
@@ -122,9 +125,8 @@
 
 /* Texto de la sección "Experiencias" */
 .experiencias-text {
-    margin-top: 38px;
-    width: 1544px;
-    height: 215px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;

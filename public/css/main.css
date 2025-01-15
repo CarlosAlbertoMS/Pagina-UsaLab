@@ -1,14 +1,13 @@
 /******************************header*******************************/
 .container1 {
     width: 100%;
-    /*max-width: 1720px;*/
     height: auto;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: auto;
     opacity: 0;
     overflow: hidden;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     animation: aparecer 1s forwards;
@@ -71,7 +70,7 @@
     flex-shrink: 0;
     background: #06052D;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 /*Seccion de inicio*/
@@ -79,13 +78,28 @@
     display: flex;
     width: 128px;
     padding: 13.5px 30px;
-    margin-left: 81px;
+    margin-right: 0;
     justify-content: center;
     align-items: center;
     gap: 10px;
     box-sizing: border-box;
     background: #06052D;
     transition: background-color 0.5s ease;
+}
+
+@media (min-width:1470px) {
+    .inicio {
+        display: flex;
+        width: 128px;
+        padding: 13.5px 30px;
+        margin-right: calc(100vw - 1470px);
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        box-sizing: border-box;
+        background: #06052D;
+        transition: background-color 0.5s ease;
+    }
 }
 
 .inicio:hover {
@@ -123,7 +137,7 @@
 .acercadeCont {
     display: none;
     position: absolute;
-    top: 208px;
+    top: 216px;
     background: #A4C732;
     z-index: 1;
 }
@@ -149,6 +163,7 @@
     display: flex;
     flex-direction: column
 }
+
 /*Texto de la barra de navegacion*/
 .navbartxt {
     color: #FFF;
@@ -159,6 +174,7 @@
     font-weight: 500;
     line-height: normal;
 }
+
 /*Seccion servicios*/
 .servicios {
     display: flex;
@@ -179,7 +195,7 @@
 .serviciosCont {
     display: none;
     position: absolute;
-    top: 208px;
+    top: 216px;
     background: #A4C732;
     z-index: 1;
 }
@@ -278,7 +294,7 @@
 .investigacionesCont {
     display: none;
     position: absolute;
-    top: 208px;
+    top: 216px;
     background: #A4C732;
     z-index: 1;
 }
@@ -320,7 +336,7 @@
 .formacionCont {
     display: none;
     position: absolute;
-    top: 208px;
+    top: 216px;
     background: #A4C732;
     z-index: 1;
 }
@@ -363,7 +379,7 @@
 .eventosCont {
     display: none;
     position: absolute;
-    top: 208px;
+    top: 216px;
     background: #A4C732;
     z-index: 1;
 }
@@ -423,15 +439,15 @@
 }
 
 /***********************Carrusel*********************/
-.titulousalab{
+.titulousalab {
     display: flex;
     width: 1152px;
     height: 136px;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-bottom: -384px;
     animation: titulousalab 1.5s forwards;
+    align-items: center;
 }
 
 @keyframes titulousalab {
@@ -440,9 +456,11 @@
     }
 }
 
-.img1{
+.img1 {
     background: rgba(0, 0, 0, 0.30);
     width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1728 / 880;
     filter: brightness(50%);
 }
 
@@ -459,15 +477,23 @@
 }
 
 .contenido1 {
+    position: absolute;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
 
 .contenidousalab {
     width: 100%;
-    height: 248px;
+    height: auto;
+    padding: 48px 168px;
     display: flex;
-    margin-bottom: -288px;
-    margin-left: -260px;
     flex-shrink: 0;
     background: rgba(192, 192, 192, 0.30);
     justify-content: center;
@@ -476,15 +502,15 @@
 }
 
 @keyframes contenidousalab {
-    to{
+    to {
         margin-bottom: -40px;
     }
-    
+
 }
 
 .contenidousalabtxt {
-    width: 1392px;
-    height: 152px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #FFFCFC;
     text-align: justify;
@@ -498,7 +524,7 @@
 
 /********************************************************footer**************************************************************/
 footer {
-    width: 1728px;
+    width: 100%;
     height: 580px;
     flex-shrink: 0;
     opacity: 0.95;
@@ -564,12 +590,12 @@ footer {
     gap: 40px;
 }
 
-.footermenu{
+.footermenu {
     width: 1032px;
     height: 100%;
 }
 
-.menurapido{
+.menurapido {
     margin-top: 56px;
     margin-left: 65px;
 }

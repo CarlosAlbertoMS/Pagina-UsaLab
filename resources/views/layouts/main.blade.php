@@ -205,7 +205,7 @@
               <!-- Imagenes del carrusel -->
               @yield('img')
           </div>
-          <div class="carousel-caption d-none d-md-block contenido1">
+          <div class="contenido1">
               <!-- Titulo del carrusel -->
               <div class="titulousalab">
                   <p class="titulousalabtxt">@yield('tituloc')</p>

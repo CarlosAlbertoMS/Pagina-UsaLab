@@ -1,15 +1,24 @@
 /****** Desarrollo comercial *****/
 .desarrollocomercial {
     margin-top: 160px;
+    position: relative;
     width: 100%;
-    aspect-ratio: 1728 / 544;
+    height: auto;
+    min-height: 544px;
+    padding: 80px 13% 84px;
     flex-shrink: 0;
     overflow: hidden;
-    background: #06052D;
+    background: rgba(6, 5, 45, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: padding 1.0s ease;
 }
+
+.desarrollocomercial:hover {
+    padding: 80px 13% 78px;
+}
+
 
 /***** Hover del boton de desarrollo comercial *****/
 .desarrollocomercial:hover .card-button {
@@ -22,8 +31,11 @@
 
 /****** Fondo mundo "desarrollo comercial" *****/
 .imagenmundo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    aspect-ratio: 1728 / 544;
+    height: 100%;
     opacity: 0.5;
     object-fit: cover;
     flex-shrink: 0;
@@ -42,14 +54,13 @@
     font-size: 55px;
     font-style: normal;
     font-weight: 600;
-    margin-top: -464px;
     line-height: normal;
 }
 
 /**** Contenido "Desarrollo comercial" ****/
 .desarrollocontenido {
-    width: 1264px;
-    height: 112px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #FFFFFE;
     text-align: justify;
