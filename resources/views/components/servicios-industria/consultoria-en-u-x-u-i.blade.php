@@ -1,16 +1,12 @@
 <div id="consultoria-de-UX-UI" class="consultoriaEnUX-UIContainer">
     <!-- Titulo de la sección -->
     <div class="consultoriaEnUX-UITitle">Consultoría en UX/UI</div>
-    <!-- Contenedor del contenido de la sección -->
-    <div class="contenidoConsultoriaEnUX-UIContainer">
-        <!-- Imagen de la sección -->
-         <img src="{{ asset('img/consultoria-en-ux-ui.png') }}" alt="Consultoría en UX/UI" class="imagenConsultoriaEnUX-UI">
-        <!-- Contenedor del texto de la sección -->
-        <div class="textoconsultoriaEnUX-UIContainer">
-            <!-- Texto de la sección -->
-            <div class="textoconsultoriaEnUX-UI">En UsaLab ofrecemos servicios de consultoría especializados en experiencia de usuario (UX) y diseño de interfaces de usuario (UI), orientados a empresas y organizaciones que buscan optimizar la interacción con sus productos digitales. Nuestro enfoque se centra en asesorar y guiar a nuestros clientes en la creación de interfaces más intuitivas, funcionales y atractivas, garantizando que cumplan con los más altos estándares de usabilidad.</div>
-        </div>
-    </div>
+
+    <!-- Contenedor de la card de la sección -->
+    <x-information-card image="{{ asset('img/consultoria-en-ux-ui.png') }}">
+    En UsaLab ofrecemos servicios de consultoría especializados en experiencia de usuario (UX) y diseño de interfaces de usuario (UI), orientados a empresas y organizaciones que buscan optimizar la interacción con sus productos digitales. Nuestro enfoque se centra en asesorar y guiar a nuestros clientes en la creación de interfaces más intuitivas, funcionales y atractivas, garantizando que cumplan con los más altos estándares de usabilidad.
+    </x-information-card>
+
     <!-- Contenedor del subtítulo de la sección -->    
     <div class="consultoriaEnUX-UISubtitleContainer">
         <!-- Subítulo de la sección -->

@@ -96,20 +96,20 @@
 
               <!-- Seccion servicios-academia -->
               <div class="srcontent">
-                <div class="navbartxt">Academia</div>
+                <div onclick="window.location.href='{{ url('/servicios-academia') }}'" class="navbartxt">Academia</div>
                 <div class="servicioacademiaCont">
                   <!-- Contenido Servicios academia -->
                   <div class="sracontent">
-                    <div class="navbartxt">Planes de estudio</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#planes-de-estudio') }}'" class="navbartxt">Planes de estudio</div>
                   </div>
                   <div class="sracontent">
-                    <div class="navbartxt">Cursos Especializados</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#cursos-especializados') }}'" class="navbartxt">Cursos Especializados</div>
                   </div>
                   <div class="sracontent">
-                    <div class="navbartxt">Asesorías</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#asesorias') }}'" class="navbartxt">Asesorías</div>
                   </div>
                   <div class="sracontent">
-                    <div class="navbartxt">Acceso a Laboratorio</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#acceso-a-laboratorio') }}'" class="navbartxt">Acceso a Laboratorio</div>
                   </div>
                 </div>
               </div>

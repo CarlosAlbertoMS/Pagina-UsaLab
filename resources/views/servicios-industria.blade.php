@@ -16,6 +16,9 @@
 <!-- Hoja de estilos de la sección "Consultorí en UX/UI" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/consultoria-en-u-x-u-i.css') }}">
 
+<!-- Hoja de estilos las cards usadas en esta ventana -->
+<link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
+
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
@@ -29,13 +32,13 @@
         <div class="servicios-industria-container">
             <!-- Carrousel -->
             @section('img')
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img class="d-block w-10 img1" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img class="d-block w-10 img1" src="{{ asset('photos/slide8.png') }}" alt="Fourth slide">
             </div>
             <div class="carousel-item">
