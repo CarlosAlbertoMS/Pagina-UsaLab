@@ -25,18 +25,19 @@
 /* Contenedor para la lista de publicaciones */
 .publicaciones-list {
     justify-self: center;
-    width: 1328px;
+    width: 1358px;
     height: 1040px;
     /* gap: 40px; Se quita el gap para simular una sola linea*/
-    overflow-y: auto;
-    scrollbar-width: none;
+    overflow-y: hidden;
+    /* scrollbar-width: none; */
     /* position: relative; */
     display: flex;
     flex-direction: column;
 }
 
-.publicacion-list::-webkit-scrollbar {
-    display: none;
+/* Mostrar la barra de desplazamiento al hacer hover */
+.publicaciones-list:hover {
+    overflow-y: auto; 
 }
 
 /* Separador de la imagen y el contenido de la publicación */

@@ -1,0 +1,49 @@
+/* Estilo para el contenido de la card */
+.informationCardContainer {
+    width: 1424px;
+    height: 688px;
+    display: flex;
+    position: relative;
+}
+
+/* Estilo para la imagen de la card */
+.imagenInformationCard {
+    position: absolute; 
+    left: 0;
+    z-index: 1; /* Asegura que la imagen esté sobre el div de texto */
+    width: 552px;
+    height: 697px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Large, 16px);
+    object-fit: cover;
+}
+
+/* Estilo para el contenedor del texto de la card */
+.textoInformationCardContainer {
+    position: absolute;
+    right: 0;
+    z-index: 0; /* Asegura que el div de texto esté debajo de la imagen */
+    width: 907px;
+    height: 688px;
+    flex-shrink: 0;
+    border-radius: 0px 16px 16px 0px;
+    background: #F9F9F9;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo para el texto de la card */
+.textoInformationCard {
+    margin-left: 114px;
+    width: 713px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}

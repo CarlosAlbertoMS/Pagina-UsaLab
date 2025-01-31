@@ -1,0 +1,37 @@
+/* Contenedor de la sección */
+.serviciosParaLaIndustriaContainer{
+    width: 1728px;
+    height: 597px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+/* Titulo de la sección */
+.serviciosParaLaIndustriaTitle {
+    margin-top: 160px;
+    width: 756px;
+    height: 67px;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Descripción de la sección */
+.serviciosParaLaIndustriaDescription{
+    width: 1234px;
+    height: 312px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
