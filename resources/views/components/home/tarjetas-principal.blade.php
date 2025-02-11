@@ -90,7 +90,7 @@
       </svg>
     </div>
     <!-- Titulo de la tarjeta -->
-    <div id="investigacion-title" class="title-card">Investigacion</div>
+    <div id="investigacion-title" class="title-card">Investigación</div>
     <!-- Boton "Mas informacion" -->
     <div class="card-button">Más Información</div>
   </div>
