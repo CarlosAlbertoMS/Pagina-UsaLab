@@ -1,3 +1,11 @@
+/* Estilo del contenedor de la sección */
+.incorporacionDeHciEnPlanesDeEstudioContainer {
+    width: 1728px;
+    height: 982px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* Estilo del titulo de la sección */
 .incorporacionDeHciEnPlanesDeEstudioTitle {
