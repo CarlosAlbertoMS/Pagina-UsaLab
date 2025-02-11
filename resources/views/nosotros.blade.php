@@ -41,14 +41,14 @@
             <!-- Contenido mision-vision -->
             <div class="misionvision">
                 <!-- Mision -->
-                <div class="titlemision">Mision</div>
+                <div class="titlemision">Misión</div>
                 <div class="separador3"></div>
                 <div class="linea1"></div>
                 <div class="separador4"></div>
                 <div class="misionp">UsaLab se dedica a promover y desarrollar la usabilidad y la interacción humano-computadora (HCI) mediante la investigación, el diseño de interfaces y la optimización de experiencias digitales. Nuestro objetivo es apoyar a la comunidad académica y a la industria para mejorar la accesibilidad y la efectividad de las tecnologías, impactando positivamente en la sociedad.</div>
                 <div class="separador5"></div>
                 <!-- Vision -->
-                <div class="titlemision">Vision</div>
+                <div class="titlemision">Visión</div>
                 <div class="separador3"></div>
                 <div class="linea1"></div>
                 <div class="separador6"></div>
