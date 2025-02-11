@@ -153,7 +153,7 @@
     <!-- Seccion Logros -->
     <div id="logros" class="logrosContent">
         <!-- Titulo logros -->
-        <div class="logrostitle">Logros en participacion de concurso</div>
+        <div class="logrostitle">Logros en participación de concurso</div>
         <div class="separador5"></div>
         <!-- Contenido de los logros -->
         <div class="logroscont">
