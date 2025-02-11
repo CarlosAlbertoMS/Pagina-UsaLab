@@ -1,16 +1,17 @@
 /* Estilo del contenedor de la sección */
 .desarrolloDeCursosEspecializadosContainer {
     width: 1728px;
-    height: 1000px;
+    height: 1910px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
 }
 
 /* Estilo del titulo de la sección */
 .desarrolloDeCursosEspecializadosTitle {
     margin-top: 160px;
-    margin-bottom: 97px;
+    margin-bottom: 80px;
     color: #000;
     font-family: Montserrat;
     font-size: 55px;
@@ -18,4 +19,48 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.55px;
+}
+
+.queOfrecemosTitle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.queOfrecemosCardsContainer {
+    width: 1728px;
+    height: 688px;
+    display: flex;
+    overflow-x: hidden; /* Ocultar la barra de desplazamiento por defecto */
+    gap: 64px;
+    box-sizing: border-box;
+}
+
+.queOfrecemosCard {
+    width: 552px;
+    height: 688px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Large, 16px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.queOfrecemosCardFigure {
+    fill: rgba(18, 18, 56, 0.90);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.queOfrecemosCardTitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
 }
