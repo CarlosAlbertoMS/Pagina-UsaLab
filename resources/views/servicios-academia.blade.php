@@ -1,19 +1,26 @@
 @extends('layouts.main')
 
 @section('cssp')
-<link href="{{ asset('css/investigacion.css') }}" type="text/css" rel="stylesheet">
+<!-- Hoja de estilos de la ventana "Servicios: Academia" -->
+<link rel="stylesheet" href="{{ asset('css/servicios-academia.css') }}">
+
+<!-- Hoja de estilos de la sección "Incorporación de HCI en planes de estudio" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/incorporacion-de-hci-en-planes-de-estudio.css') }}">
+
+<!-- Hoja de estilos las cards usadas en esta ventana -->
+<link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
 
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
 
-@section('title','Investigaciones')
+@section('title','Servicios: Academia')
 
 @section('content')
-    <!-- Contenedor para la ventana Investigación -->
-    <div class="investigacion-window-container">
-        <!-- Contenedor para la sección "Investigación" (Titulo y descripción) -->
-        <div class="investigacion-container">
+    <!-- Contenedor para la ventana Servicios: Academia -->
+    <div class="servicios-academia-window-container">
+        <!-- Contenedor para la sección "Servicios: Academia" (Titulo y descripción) -->
+        <div class="servicios-academia-container">
             <!-- Carrousel -->
             @section('img')
             <div class="carousel-item active">
@@ -21,16 +28,17 @@
             </div>
             @endsection
     
-            <!-- Titulo "Investigeación -->
+            <!-- Titulo "Servicios: Academia" -->
             @section('tituloc')
             <br><br>Servicios: Academia
             @endsection
     
-            <!-- Descripción de la página Investigación -->
+            <!-- Descripción de la página Servicios: Academia -->
             @section('contc','UsaLab, el Laboratorio de Usabilidad de la Universidad Tecnológica de la Mixteca (UTM), juega un papel crucial en la formación y desarrollo de estudiantes y profesionales en el campo de la usabilidad y la interacción humano-computadora (HCI). Integramos la teoría y la práctica a través de iniciativas académicas, colaboraciones y eventos.')
         </div>
 
-
+        <!-- Sección "Incorporación de HCI en planes de estudio" -->        
+        <x-servicios-academia.incorporacion-de-hci-en-planes-de-estudio />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />

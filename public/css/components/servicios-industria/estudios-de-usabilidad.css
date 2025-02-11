@@ -1,0 +1,22 @@
+/* Contenedor de la sección */
+.estudiosDeUsabilidadContainer {
+    width: 1728px;
+    height: 964px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Estilo para el titulo de la sección */
+.estudiosDeUsabilidadTitle {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    height: 55px;
+    margin-bottom: 88px;
+}
