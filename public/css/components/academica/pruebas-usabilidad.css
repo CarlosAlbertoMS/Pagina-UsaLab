@@ -203,3 +203,54 @@
     font-weight: 700;
     line-height: normal;
 }
+
+/*****Estilos para las tarjetas del svg ***********/
+.contenedorTar
+{
+    display: flex;
+    padding: 0px 132px 0px 132px;
+    flex-direction: row;
+}
+
+.tarjeta
+{
+    display: flex;
+    width: 448px;
+    height: 624px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 20px 0px 20px;
+}
+
+.tituloTar
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.tituloTarTexto
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 430px;
+}
