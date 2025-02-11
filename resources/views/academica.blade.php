@@ -37,6 +37,9 @@ Formacion Académica
     <div class="separador2"></div>
     <!-- Seccion pruebas de Usabilidad -->
     <x-academica.pruebas-usabilidad />
+    <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
+            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Sección en desarrollo: Pruebas de usabilidad      :(</div>
+        </div>
 
     <!-- Carrusel Practicas profesionales -->
      <div class="practicaprofesional" id="practicas"></div>
@@ -64,6 +67,10 @@ Formacion Académica
         <div class="linea3"></div>
     </div>
     <div class="separador2"></div>
+
+    <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
+            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Sección en construcción: Maestría      :(</div>
+        </div>
 
     <x-hablanos />
     

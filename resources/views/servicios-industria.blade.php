@@ -73,10 +73,9 @@
         <!-- Sección "Consultoría en UX/UI" -->
         <x-servicios-industria.consultoria-en-u-x-u-i />
 
-        <img class="d-block w-10 img1" src="{{ asset('img/UC.jpeg') }}" alt="">
-
-        <p>Secciónes en construcción: Capacitación y formación, Desarrollo de prototipos, Análisis de UX y Proyectos a la medida      :(</p>
-        <img class="d-block w-10 img1" src="{{ asset('img/UC.jpeg') }}" alt="">
+        <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
+            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Secciones en construcción: Capacitación y formación, Desarrollo de prototipos, Análisis de UX y Proyectos a la medida      :(</div>
+        </div>
 
         <!-- Separador segundo tipo -->
         <div class="separador2ServiciosIndustria"></div>
