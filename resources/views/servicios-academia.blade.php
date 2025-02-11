@@ -10,6 +10,9 @@
 <!-- Hoja de estilos de la sección "Objetivos de la Incorporación de HCI" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-de-la-incorporacion-de-hci.css') }}">
 
+<!-- Hoja de estilos de la sección "Desarrollo de Cursos Especializados" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/desarrollo-de-cursos-especializados.css') }}">
+
 <!-- Hoja de estilos las cards de objetivos de incorporación -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-card.css') }}">
 
@@ -48,6 +51,9 @@
 
         <!-- Sección "Objetivos de la Incorporacion de HCI" -->        
         <x-servicios-academia.objetivos-de-la-incorporacion-de-hci />
+
+        <!-- Sección "Desarrollo de Cursos Especializados" -->        
+        <x-servicios-academia.desarrollo-de-cursos-especializados />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
