@@ -79,16 +79,16 @@
                     <div onclick="window.location.href='{{ url('/servicios-industria#consultoria-de-UX-UI') }}'" class="navbartxt">Consultoría de UX/UI</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/servicios-industria#capacitacion-y-formacion') }}'" class="navbartxt">Capacitación y formación</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Capacitación y formación</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/servicios-industria#desarrollo-de-prototipos') }}'" class="navbartxt">Desarrollo de prototipos</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Desarrollo de prototipos</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/servicios-industria#analisis-de-UX-UI') }}'"class="navbartxt">Análisis de UX/UI</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'"class="navbartxt">Análisis de UX/UI</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/servicios-industria#proyectos-a-medida') }}'" class="navbartxt">Proyectos a medida</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Proyectos a medida</div>
                   </div>
                 </div>
               </div>
@@ -103,13 +103,13 @@
                     <div onclick="window.location.href='{{ url('/servicios-academia#planes-de-estudio') }}'" class="navbartxt">Planes de estudio</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/servicios-academia#cursos-especializados') }}'" class="navbartxt">Cursos Especializados</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Cursos Especializados</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/servicios-academia#asesorias') }}'" class="navbartxt">Asesorías</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Asesorías</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/servicios-academia#acceso-a-laboratorio') }}'" class="navbartxt">Acceso a Laboratorio</div>
+                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Acceso a Laboratorio</div>
                   </div>
                 </div>
               </div>
@@ -156,10 +156,10 @@
               <div onclick="window.location.href='{{ url('/academica#servicio') }}'" class="facontent">
                 <div class="navbartxt">Servicio Social</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#tesis') }}'" class="facontent">
                 <div class="navbartxt">Tesis</div>
               </div>
-              <div class="facontent">
+              <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="facontent">
                 <div class="navbartxt">Maestría</div>
               </div>
             </div>
@@ -168,29 +168,29 @@
 
           <!-- Seccion Eventos -->
           <div class="eventos">
-            <div class="navbartxt">Eventos</div>
+            <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
-                <div class="navbartxt">Últimos Eventos</div>
+                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Últimos Eventos</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Conferencias</div>
+                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Conferencias</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Talleres</div>
+                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Talleres</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Cursos</div>
+                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Cursos</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Concursos</div>
+                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Concursos</div>
               </div>
             </div>
           </div>
           <!-- seccion de idiomas de la barra de navegacion -->
           <div class="idioma">
             <img src="{{ asset('icons/fontisto_world-o.svg') }}" alt="">
-            <div class="idiomatxt">Eng</div>
+            <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="idiomatxt">Eng</div>
           </div>
         </div>
       </div>
@@ -242,13 +242,13 @@
           <br>
           <br>
           <div class="footeroptions">
-            <p class="optiontxt">Inicio</p>
-            <p class="optiontxt">Acerca de</p>
-            <p class="optiontxt">Industria</p>
-            <p class="optiontxt">Acaddemia</p>
-            <p class="optiontxt">Investigaciones</p>
-            <p class="optiontxt">Formación Academica</p>
-            <p class="optiontxt">Eventos</p>
+            <p onclick="window.location.href='{{ url('/') }}'" class="optiontxt">Inicio</p>
+            <p onclick="window.location.href='{{ url('/nosotros') }}'"  class="optiontxt">Acerca de</p>
+            <p onclick="window.location.href='{{ url('/servicios-industria') }}'" class="optiontxt">Industria</p>
+            <p onclick="window.location.href='{{ url('/servicios-academia') }}'" class="optiontxt">Academia</p>
+            <p onclick="window.location.href='{{ url('/investigaciones') }}'" class="optiontxt">Investigaciones</p>
+            <p onclick="window.location.href='{{ url('/academica') }}'" class="optiontxt">Formación Académica</p>
+            <p onclick="window.location.href='{{ url('/en-construccion') }}'" class="optiontxt">Eventos</p>
           </div>
         </div>
       </div>

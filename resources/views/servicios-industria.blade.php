@@ -73,8 +73,14 @@
         <!-- Sección "Consultoría en UX/UI" -->
         <x-servicios-industria.consultoria-en-u-x-u-i />
 
+        <img class="d-block w-10 img1" src="{{ asset('img/UC.jpeg') }}" alt="">
+
+        <p>Secciónes en construcción: Capacitación y formación, Desarrollo de prototipos, Análisis de UX y Proyectos a la medida      :(</p>
+        <img class="d-block w-10 img1" src="{{ asset('img/UC.jpeg') }}" alt="">
+
         <!-- Separador segundo tipo -->
         <div class="separador2ServiciosIndustria"></div>
+
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />

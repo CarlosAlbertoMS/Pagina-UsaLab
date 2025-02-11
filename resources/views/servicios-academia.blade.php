@@ -40,6 +40,11 @@
         <!-- Sección "Incorporación de HCI en planes de estudio" -->        
         <x-servicios-academia.incorporacion-de-hci-en-planes-de-estudio />
 
+
+                <div style="display:flex; align-content:center; justify-content:center;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
+            <div style="">Secciónes en construcción: Planes de estudio, Cursos especializados, Asesorías y Acceso al laboratorio      :(</div>
+        </div>
+
         <!-- Sección "Hablanos" -->
         <x-hablanos />
 
