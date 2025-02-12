@@ -2,6 +2,7 @@
 .cards-container {
     display: flex;
     width: 90%;
+    max-width: 1376px;
     margin: 0 auto;
     overflow-x: auto;
     scrollbar-width: none;
