@@ -28,7 +28,7 @@
 @endsection
 
 @section('tituloc')
-Formacion Académica
+Formación Académica
 @endsection
 
 @section('contc','En UsaLab, los estudiantes pueden participar en proyectos reales, realizar prácticas profesionales, colaborar en investigaciones y asistir a talleres. Estas actividades te permitirán aplicar tus conocimientos y desarrollar habilidades clave en el campo de la usabilidad.')

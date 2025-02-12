@@ -11,7 +11,7 @@
                     </div>
                     <!-- Contenido del carrusel -->
                     <div class="contenidonosotros">
-                    <p class="contenidonosotrostxt">En UsaLab ofrece a los estudiantes un entorno ideal para desarrollar investigaciónes innovadoras y aplicadas en los campos de la usabilidad, experiencia de usuario y diseño web. El laboratorio proporciona una combinación de recursos técnicos, mentoría especializada y oportunidades de colaboración que potencian la calidad y el impacto de los trabajos de tesis</p>
+                    <p class="contenidonosotrostxt">En UsaLab ofrece a los estudiantes un entorno ideal para desarrollar investigaciones innovadoras y aplicadas en los campos de la usabilidad, experiencia de usuario y diseño web. El laboratorio proporciona una combinación de recursos técnicos, mentoría especializada y oportunidades de colaboración que potencian la calidad y el impacto de los trabajos de tesis</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
     <!-- Seccion Requisitos -->
 
     <div class="ofrecimento">
-        <div class="tituloT">¿Que ofrecemos?</div>
+        <div class="tituloT">¿Qué ofrecemos?</div>
 
         <div class="lineaTT"></div>
 
@@ -38,7 +38,7 @@
             <div class="lineaTT1"></div>
             <div class="tabla2">
                 <div class="tituloQOT">Acceso a tecnologías avanzadas</div>
-                <div class="parrafoQOT" id="TP2">UsaLab con herraminetas especializadas y software de última generación que permiten realizar pruebas de usabilidad, prototipado y análisis de interfaces con precisión.</div>
+                <div class="parrafoQOT" id="TP2">UsaLab con herramientas especializadas y software de última generación que permiten realizar pruebas de usabilidad, prototipado y análisis de interfaces con precisión.</div>
             </div>
             <div class="lineaTT1"></div>
             <div class="tabla3">
@@ -55,7 +55,7 @@
         <div class="contRT">
             <div class="tituloRT">Requisitos generales de Tesis</div>
             <div class="subRT">Para participar en el programa de apoyo para tesis de UsaLab</div>
-            <div class="cuerpoRT">Es necesario ser estudiante cursando el sexto u octavo semestre, ademas, se requiere contar con un proyecto de investigación previamente aprobado por la institución educativa, que esté alineado con las areas de interes del laboratorio. Es importante que los estudiantes tengan la disposición de trabajar en un entorno colaborativo y se comprometan a seguir el plan de trabajo establecido, participando activamente en las reuniones de seguimiento y actividades del laboratorio. Asimismo, deben estar dispuestos a presentar los avances y resultados de su investigación.
+            <div class="cuerpoRT">Es necesario ser estudiante cursando el sexto u octavo semestre, además, se requiere contar con un proyecto de investigación previamente aprobado por la institución educativa, que esté alineado con las áreas de interés del laboratorio. Es importante que los estudiantes tengan la disposición de trabajar en un entorno colaborativo y se comprometan a seguir el plan de trabajo establecido, participando activamente en las reuniones de seguimiento y actividades del laboratorio. Asimismo, deben estar dispuestos a presentar los avances y resultados de su investigación.
             </div>
         </div>
     </div>
