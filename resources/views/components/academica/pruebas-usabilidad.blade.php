@@ -83,7 +83,7 @@
                         </defs>
                     </svg>
                     <div class="tituloTarTexto">
-                        Evaluación Heuristica
+                        Evaluación Heurística
                     </div>
                 </div>
             </div>

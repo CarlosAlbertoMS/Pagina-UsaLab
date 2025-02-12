@@ -228,11 +228,15 @@
         </div>
         <div class="sf1"></div>
         <div class="footertxt">+52 953 532 0399<br /><br />Av. Doctor Modesto Seara Vázquez #1, Acatlima, 69000 Heroica
-          Cdad. de Huajuapan de León, Oax. Mexico<br /><br /></div>
+          Cdad. de Huajuapan de León, Oax. México<br /><br /></div>
         <div class="sf2"></div>
         <div class="logoslink">
-          <img class="facebook" src="{{ asset('icons/mdi_facebook.svg') }}" />
-          <img class="link12" src="{{ asset('icons/ic_round-link.svg') }}" />
+          <a href="https://www.facebook.com/profile.php?id=100057657099727">
+            <img class="facebook" src="{{ asset('icons/mdi_facebook.svg') }}" />
+          </a>
+          <a href="">
+            <img class="link12" src="{{ asset('icons/ic_round-link.svg') }}" />
+          </a>
         </div>
       </div>
     <!-- Seccion menú rápido -->
