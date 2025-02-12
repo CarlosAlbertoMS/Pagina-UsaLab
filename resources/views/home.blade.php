@@ -21,21 +21,21 @@
 
 @section('img')
 <div class="carousel-item active">
-    <img class="d-block w-10 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
+    <img class="d-block w-100 img1" src="{{ asset('photos/slide1.png') }}" alt="...">
 </div>
 <div class="carousel-item">
-    <img class="d-block w-10 img1" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
+    <img class="d-block w-100 img1" src="{{ asset('photos/slide3.png') }}" alt="...">
 </div>
 <div class="carousel-item">
-    <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
+    <img class="d-block w-100 img1" src="{{ asset('photos/slide4.png') }}" alt="...">
 </div>
 <div class="carousel-item">
-    <img class="d-block w-10 img1" src="{{ asset('photos/slide8.png') }}" alt="Fourth slide">
+    <img class="d-block w-100 img1" src="{{ asset('photos/slide8.png') }}" alt="...">
 </div>
 @endsection
 
 @section('tituloc')
-UsaLab<br /><br>Laboratorio de Usabilidad
+UsaLab<br>Laboratorio de Usabilidad
 @endsection
 
 @section('contc','Es un laboratorio de la Universidad Tecnológica de la Mixteca (UTM)

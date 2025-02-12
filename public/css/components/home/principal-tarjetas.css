@@ -1,7 +1,10 @@
 /****************Principal de tarjetas****************/
 .cards-container {
     display: flex;
-    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+    scrollbar-width: none;
     gap: 24px;
 }
 

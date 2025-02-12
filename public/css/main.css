@@ -1,14 +1,13 @@
 /******************************header*******************************/
 .container1 {
     width: 100%;
+
     height: auto;
     background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin: auto;
     opacity: 0;
-    overflow: hidden;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     animation: aparecer 1s forwards;
 }
@@ -33,7 +32,7 @@
     width: 128px;
     height: 128px;
     flex-shrink: 0;
-    margin-left: -112px;
+    
     margin-top: 16px;
     box-sizing: border-box;
     animation: logoutm 1s forwards;
@@ -50,7 +49,7 @@
     height: 128px;
     object-fit: cover;
     flex-shrink: 0;
-    margin-right: -112px;
+    
     margin-top: 16px;
     transform: scale(1.4);
     animation: logousalab 1s forwards;
@@ -87,12 +86,12 @@
     transition: background-color 0.5s ease;
 }
 
-@media (min-width:1470px) {
+@media (min-width:1460px) {
     .inicio {
         display: flex;
         width: 128px;
         padding: 13.5px 30px;
-        margin-right: calc(100vw - 1470px);
+        margin-right: calc(100% - 1470px);
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -124,8 +123,9 @@
 /*Seccion acerca de*/
 .acercade {
     display: flex;
-    width: 192px;
-    padding: 13.5px 36px;
+    width: auto;
+    max-width: 180px;
+    padding: 13.5px 30.5px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -148,8 +148,8 @@
 
 .acercadeCont .adcontent {
     color: #FFF;
-    width: 192px;
-    padding: 13.5px 18.5px;
+    width: 180px;
+    padding: 13.5px 11px;
     box-sizing: border-box;
     display: block;
     transition: background-color 0.5s ease;
@@ -178,7 +178,8 @@
 /*Seccion servicios*/
 .servicios {
     display: flex;
-    width: 192px;
+    width: auto;
+    max-width: 192px;
     padding: 13.5px 43px;
     justify-content: center;
     align-items: center;
@@ -277,7 +278,8 @@
 /*Seccion investigaciones*/
 .investigaciones {
     display: flex;
-    width: 217px;
+    width: auto;
+    max-width: 217px;
     padding: 13.5px 15px;
     justify-content: center;
     align-items: center;
@@ -320,6 +322,8 @@
 /*Seccion formacion academica*/
 .formacion {
     display: inline-flex;
+    width: auto;
+    max-width: 302px;
     padding: 13.5px 15px;
     justify-content: center;
     align-items: center;
@@ -441,8 +445,8 @@
 /***********************Carrusel*********************/
 .titulousalab {
     display: flex;
-    width: 1152px;
-    height: 136px;
+    max-width: 1152px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
@@ -459,8 +463,8 @@
 .img1 {
     background: rgba(0, 0, 0, 0.30);
     width: 100%;
+    height: 880px;
     object-fit: cover;
-    aspect-ratio: 1728 / 880;
     filter: brightness(50%);
 }
 
@@ -472,7 +476,7 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 80px;
     letter-spacing: 0.8px;
 }
 
