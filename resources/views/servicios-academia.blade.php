@@ -49,6 +49,9 @@
         <!-- Sección "Incorporación de HCI en planes de estudio" -->        
         <x-servicios-academia.incorporacion-de-hci-en-planes-de-estudio />
 
+        <!-- Subsección "Objetivos de la Incorporacion de HCI" -->        
+        <x-servicios-academia.objetivos-de-la-incorporacion-de-hci />
+
         <!-- Sección "Desarrollo de Cursos Especializados" -->        
         <x-servicios-academia.desarrollo-de-cursos-especializados />
 
