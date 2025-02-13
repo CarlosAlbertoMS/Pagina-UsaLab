@@ -13,11 +13,15 @@
 <!-- Hoja de estilos de la sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/tecnicas-de-estudio-de-usabilidad.css') }}">
 
-<!-- Hoja de estilos de la sección "Consultorí en UX/UI" -->
+<!-- Hoja de estilos de la sección "Consultoría en UX/UI" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/consultoria-en-u-x-u-i.css') }}">
+
+<!-- Hoja de estilos de la sección "Capacitación y Formación" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/capacitacion-y-formacion.css') }}">
 
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/servicios-industria-card.css') }}">
 
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
@@ -75,6 +79,9 @@
 
         <!-- Separador segundo tipo -->
         <div class="separador2ServiciosIndustria"></div>
+
+        <!-- Sección "Capacitación y Formación" -->
+        <x-servicios-industria.capacitacion-y-formacion />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
