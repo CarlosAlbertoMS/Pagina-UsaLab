@@ -19,6 +19,9 @@
 <!-- Hoja de estilos de la sección "Capacitación y Formación" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/capacitacion-y-formacion.css') }}">
 
+<!-- Hoja de estilos de la sección "Desarrollo Comercial" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/desarrollo-comercial.css') }}">
+
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/servicios-industria-card.css') }}">
@@ -82,6 +85,9 @@
 
         <!-- Sección "Capacitación y Formación" -->
         <x-servicios-industria.capacitacion-y-formacion />
+
+        <!-- Sección "Desarrollo Comercial" -->
+        <x-servicios-industria.desarrollo-comercial />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />

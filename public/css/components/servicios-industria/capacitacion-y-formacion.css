@@ -1,7 +1,7 @@
 /* Estilo del contenedor de la sección */
 .capacitacionYFormacionContainer {
     width: 1728px;
-    height: 2208px;
+    height: 2048px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
