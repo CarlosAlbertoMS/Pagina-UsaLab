@@ -13,11 +13,14 @@
 <!-- Hoja de estilos de la sección "Desarrollo de Cursos Especializados" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-academia/desarrollo-de-cursos-especializados.css') }}">
 
+<!-- Hoja de estilos las cards de objetivos de incorporación -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-card.css') }}">
+
 <!-- Hoja de estilos de la sección "Asesorias Especializadas" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-academia/asesorias-especializadas.css') }}">
 
-<!-- Hoja de estilos las cards de objetivos de incorporación -->
-<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-card.css') }}">
+<!-- Hoja de estilos de la sección "Acceso a Laboratorio" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/acceso-a-laboratorio.css') }}">
 
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
@@ -60,6 +63,12 @@
 
         <!-- Sección "Asesorias Especializadas" -->        
         <x-servicios-academia.asesorias-especializadas />
+
+        <!-- Sección "Acceso a Laboratorio" -->        
+        <x-servicios-academia.acceso-a-laboratorio />
+
+        <!-- Separador entre el contenido de la sección y el háblanos -->
+        <div class="separador-servicios-academia"></div>
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
