@@ -1,7 +1,7 @@
 /* Estilo del contenedor de la sección */
 .desarrolloComercialContainer {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 160px;
+    margin-bottom: 160px;
     width: 1728px;
     height: 616px;
     flex-shrink: 0;

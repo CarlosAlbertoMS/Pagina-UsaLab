@@ -22,6 +22,9 @@
 <!-- Hoja de estilos de la sección "Desarrollo Comercial" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/desarrollo-comercial.css') }}">
 
+<!-- Hoja de estilos de la sección "Desarrollo de Prototipos" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/desarrollo-de-prototipos.css') }}">
+
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/servicios-industria-card.css') }}">
@@ -88,6 +91,9 @@
 
         <!-- Sección "Desarrollo Comercial" -->
         <x-servicios-industria.desarrollo-comercial />
+
+        <!-- Sección "Desarrollo de Prototipos" -->
+        <x-servicios-industria.desarrollo-de-prototipos />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
