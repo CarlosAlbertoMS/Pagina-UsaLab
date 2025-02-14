@@ -1,7 +1,7 @@
 <!-- Contenedor de la sección -->
-<div class="desarrolloDePrototiposContainer">
+<div id="desarrollo-de-prototipos" class="desarrolloDePrototiposContainer">
     <!-- Titulo de la sección -->
-    <div class="desarrolloDePrototiposTitle">Capacitación y Formación</div>
+    <div class="desarrolloDePrototiposTitle">Desarrollo de Prototipos</div>
 
     <!-- Contenedor de la card de la sección -->
     <x-information-card image="{{ asset('img/desarrollo-de-prototipos.png') }}">
