@@ -27,7 +27,7 @@
             <div class="requisitoppCard">
                 <img class="requisitoppimg" src="{{ asset('img/FA_PP_R1.png') }}" alt="">
                 <div class="requisitopptitulo">Estudiante de ingeniería</div>
-                <div class="requisitoppp">Debe estar familiarizado con la rama de la ingeniería, enfocandose en área de diseño web o programación.</div>
+                <div class="requisitoppp">Debe estar familiarizado con la rama de la ingeniería, enfocándose en área de diseño web o programación.</div>
             </div>
             <div class="requisitoppCard">
                 <img class="requisitoppimg" src="{{ asset('img/FA_PP_R2.png') }}" alt="">
@@ -41,7 +41,7 @@
             </div>
             <div class="requisitoppCard">
                 <img class="requisitoppimg" src="{{ asset('img/FA_PP_R4.png') }}" alt="">
-                <div class="requisitopptitulo">Creatividad y capacidad tecnica</div>
+                <div class="requisitopptitulo">Creatividad y capacidad técnica</div>
                 <div class="requisitoppp">Capacidad para desarrollar ideas innovadoras y comprender su equipo de trabajo.</div>
             </div>
         </div>

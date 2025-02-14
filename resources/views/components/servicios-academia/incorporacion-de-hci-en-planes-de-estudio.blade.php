@@ -1,5 +1,4 @@
-<!-- Contenedor de la sección -->
-<div class="incorporacionDeHciEnPlanesDeEstudioContainer">
+<div id="planes-de-estudio" class="incorporacionDeHciEnPlanesDeEstudioContainer">
     <!-- Título de la sección -->
     <div class="incorporacionDeHciEnPlanesDeEstudioTitle">Incorporación de HCI en Planes de Estudio</div>
     <!-- Card de la sección -->

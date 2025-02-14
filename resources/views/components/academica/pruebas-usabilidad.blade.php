@@ -7,8 +7,96 @@
         <img class="pruebausalabimg" src="{{ asset('photos/prueba1.jpeg') }}" alt="" srcset="">
     </div>
     <div class="separador3"></div>
-    <div class="tarjetas"></div>
+    <div class="tarjetas">
+        <!----------------Las tarjetas esas >;v ------------------------>
+        <div class="contenedorTar">
+            <div class="tarjeta">
+                <img src="{{ asset('img/FA_PU_01.png') }}" alt="">
+                <div class="contenidoTar">
+                    <svg class="tituloTar"  width="448" height="292" viewBox="0 0 448 280" fill="none">
+                        <g filter="url(#filter0_d_3318_490)">
+                            <path d="M4.00004 186.323C4.00005 44.593 284.352 25.2679 436.91 0.383788C444.272 -0.817109 451 4.83774 451 12.2974L451 272C451 278.627 445.627 284 439 284L16 284C9.37259 284 4.00003 278.632 4.00003 272.005L4.00004 186.323Z" fill="#4890B0" fill-opacity="0.9" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_3318_490" x="0" y="0.222412" width="448" height="292" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3318_490"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3318_490" result="shape"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="tituloTarTexto">
+                        Pruebas en laboratorio
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <img src="{{ asset('img/FA_PU_02.png') }}" alt="">
+                <div class="contenidoTar">
+                    <svg class="tituloTar"  width="448" height="292" viewBox="0 0 448 280" fill="none">
+                        <g filter="url(#filter0_d_3318_490)">
+                            <path d="M4.00004 186.323C4.00005 44.593 284.352 25.2679 436.91 0.383788C444.272 -0.817109 451 4.83774 451 12.2974L451 272C451 278.627 445.627 284 439 284L16 284C9.37259 284 4.00003 278.632 4.00003 272.005L4.00004 186.323Z" fill="#4890B0" fill-opacity="0.9" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_3318_490" x="0" y="0.222412" width="448" height="292" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3318_490"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3318_490" result="shape"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="tituloTarTexto">
+                        Pruebas de usabilidad con prototipos
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <img src="{{ asset('img/FA_PU_03.png') }}" alt="">
+                <div class="contenidoTar">
+                    <svg class="tituloTar"  width="448" height="292" viewBox="0 0 448 280" fill="none">
+                        <g filter="url(#filter0_d_3318_490)">
+                            <path d="M4.00004 186.323C4.00005 44.593 284.352 25.2679 436.91 0.383788C444.272 -0.817109 451 4.83774 451 12.2974L451 272C451 278.627 445.627 284 439 284L16 284C9.37259 284 4.00003 278.632 4.00003 272.005L4.00004 186.323Z" fill="#4890B0" fill-opacity="0.9" shape-rendering="crispEdges"/>
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_3318_490" x="0" y="0.222412" width="448" height="292" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3318_490"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3318_490" result="shape"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="tituloTarTexto">
+                        Evaluación Heurística
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="separador2"></div>
+
+
+
+
+
     <!-- Seccion Pruebas en laboratorio -->
     <div class="pruebaslaboratorio">
         <div class="pruebaslaboratoriotitle">Pruebas en Laboratorio</div>

@@ -42,7 +42,7 @@
             <div class="requisitossCard">
                 <img class="requisitossimg" src="{{ asset('img/FA_SS_R4.png') }}" alt="">
                 <div class="requisitosstitulo">Interés por la investigación de usuarios</div>
-                <div class="requisitossp">Familiaridad o interes en aprender sobre métodos de usuarios y pruebas de usabilidad.</div>
+                <div class="requisitossp">Familiaridad o interés en aprender sobre métodos de usuarios y pruebas de usabilidad.</div>
             </div>
         </div>
     </div>

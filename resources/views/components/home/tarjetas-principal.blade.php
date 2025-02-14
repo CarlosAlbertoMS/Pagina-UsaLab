@@ -28,11 +28,11 @@
     <!-- Titulo de la tarjeta -->
     <div id="nuestros-servicios-title" class="title-card">Nuestros Servicios</div>
     <!-- Boton "mas informacion" -->
-    <div class="card-button">Más Información</div>
+    <div onclick="window.location.href='{{ url('/servicios-industria') }}'" class="card-button">Más Información</div>
   </div>
 
   <!-- Terjeta "Nosotros" -->
-  <div id="nosotros-card" onclick="window.location.href='{{ url('/nosotros') }}'" class="card">
+  <div id="nosotros-card" class="card">
     <!-- Figura de la tarjeta -->
     <div class="card-figure">
       <svg xmlns="http://www.w3.org/2000/svg" width="448" height="290" viewBox="0 0 448 290" fill="none">
@@ -60,7 +60,7 @@
     <!-- titulo de la tarjeta -->
     <div id="nosotros-title" class="title-card">Nosotros</div>
     <!-- Boton "Mas infromacion" -->
-    <div class="card-button">Más Información</div>
+    <div onclick="window.location.href='{{ url('/nosotros') }}'" class="card-button">Más Información</div>
   </div>
 
   <!-- Tarjeta "Investigacion" -->
@@ -90,8 +90,8 @@
       </svg>
     </div>
     <!-- Titulo de la tarjeta -->
-    <div id="investigacion-title" class="title-card">Investigacion</div>
+    <div id="investigacion-title" class="title-card">Investigación</div>
     <!-- Boton "Mas informacion" -->
-    <div class="card-button">Más Información</div>
+    <div onclick="window.location.href='{{ url('/investigaciones') }}'" class="card-button">Más Información</div>
   </div>
 </div>
