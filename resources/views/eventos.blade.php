@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
 @section('cssp')
+    <!-- Hoja de estilos para el titulo de la sección "Proximos eventos" -->
+    <link href="{{ asset('css/components/eventos/proximosEventos.css') }}" type="text/css" rel="stylesheet">
 
 @endsection
 
