@@ -7,6 +7,21 @@
 <!-- Hoja de estilos de la sección "Incorporación de HCI en planes de estudio" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-academia/incorporacion-de-hci-en-planes-de-estudio.css') }}">
 
+<!-- Hoja de estilos de la sección "Objetivos de la Incorporación de HCI" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-de-la-incorporacion-de-hci.css') }}">
+
+<!-- Hoja de estilos de la sección "Desarrollo de Cursos Especializados" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/desarrollo-de-cursos-especializados.css') }}">
+
+<!-- Hoja de estilos las cards de objetivos de incorporación -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/objetivos-card.css') }}">
+
+<!-- Hoja de estilos de la sección "Asesorias Especializadas" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/asesorias-especializadas.css') }}">
+
+<!-- Hoja de estilos de la sección "Acceso a Laboratorio" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-academia/acceso-a-laboratorio.css') }}">
+
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
 
@@ -40,9 +55,20 @@
         <!-- Sección "Incorporación de HCI en planes de estudio" -->        
         <x-servicios-academia.incorporacion-de-hci-en-planes-de-estudio />
 
-        <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
-            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Secciones en construcción: Planes de estudio, Cursos especializados, Asesorías y Acceso al laboratorio      :(</div>
-        </div>
+        <!-- Subsección "Objetivos de la Incorporacion de HCI" -->        
+        <x-servicios-academia.objetivos-de-la-incorporacion-de-hci />
+
+        <!-- Sección "Desarrollo de Cursos Especializados" -->        
+        <x-servicios-academia.desarrollo-de-cursos-especializados />
+
+        <!-- Sección "Asesorias Especializadas" -->        
+        <x-servicios-academia.asesorias-especializadas />
+
+        <!-- Sección "Acceso a Laboratorio" -->        
+        <x-servicios-academia.acceso-a-laboratorio />
+
+        <!-- Separador entre el contenido de la sección y el háblanos -->
+        <div class="separador-servicios-academia"></div>
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />

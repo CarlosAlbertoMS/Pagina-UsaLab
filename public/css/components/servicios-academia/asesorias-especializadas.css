@@ -1,0 +1,95 @@
+/* Estilo del contenedor de la sección */
+.asesoriasEspecializadasContainer {
+    width: 1728px;
+    height: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* Estilo del titulo de la sección */
+.asesoriasEspecializadasTitle {
+    margin-top: 160px;
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Estilo del titulo de la subsección */
+.comoSolicitarAsesoriasTitle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Contenedor de las cards de la subsección "¿Cómo Solicitar Asesorías?" */
+.comoSolicitarAsesoriasCardsContainer {
+    width: 1692px;
+    height: 697px;
+    display: flex;
+    gap: 18px;
+    box-sizing: border-box;
+}
+
+/* Estilo de las cards de la subsección "¿Qué ofrecemos?" */
+.comoSolicitarAsesoriasCard {
+    width: 552px;
+    height: 688px;
+    flex-shrink: 1;
+    border-radius: var(--Corner-Large, 16px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Estilos de la figura de la card */
+.comoSolicitarAsesoriasCardFigure {
+    fill: rgba(18, 18, 56, 0.90);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    bottom: -9px;   /* El SVG está mal hecho */
+}
+
+/* Estilo para el titulo de la card */
+.comoSolicitarAsesoriasCardTitle {
+    width: 380px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-top: 16%;
+}
+
+/* Estilo para el contenido de la card */
+.comoSolicitarAsesoriasCardContent {
+    width: 387px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    position: absolute;
+    bottom: 48px;
+    left: 107px;
+}

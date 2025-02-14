@@ -1,0 +1,29 @@
+/* Estilo para el contenedor de la sección */
+.objetivosDeLaIncorporacionDeHciContainer {
+    width: 1728px;
+    /* height: 2147px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo del titulo de la sección */
+.objetivosDeLaIncorporacionDeHciTitle {
+    margin-top: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Estilo del conteedor de las cards de objetivos */
+.cardsObjetivosContainer {
+    margin-top: 80px;
+    height: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
