@@ -195,10 +195,10 @@
         </div>
       </div>
       <!-- Termina barra de navegación -->
-      <div class="separador"></div>
     </header>
     <!-- Seccion principal -->
     <main>
+    <div class="separador"></div>
       <!-- Carrusel de la página principal -->
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">

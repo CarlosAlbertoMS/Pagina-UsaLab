@@ -1,0 +1,31 @@
+.trayectoriaContent {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/*Contenido del carrusel Trayectoria*/
+.contenidotray {
+    width: 100%;
+    height: auto;
+    padding: 48px 168px;
+    display: flex;
+    flex-shrink: 0;
+    background: rgba(192, 192, 192, 0.30);
+    justify-content: center;
+    align-items: center;
+}
+
+/*Texto del carrusel Trayectoria*/
+.contenidotraytxt {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    color: #FFFCFC;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
