@@ -22,7 +22,8 @@
 
 /* Titulo "Háblanos de tu proyecto" */
 .hablanos-title {
-    width: 707px;
+    width: auto;
+    max-width: 707px;
     height: 56px;
     flex-shrink: 0;
     color: #06052D;

@@ -11,6 +11,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <link href="{{ asset('css/main.css') }}" type="text/css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+
   <!-- Seccion para colocar CSS espeficico -->
   @yield('cssp')
   <!-- Seccion para colocar el titulo de la pagina -->
@@ -239,8 +242,6 @@
       <div class="footermenu">
         <div class="menurapido">
           <p class="menurapidotxt">&lt;Menú rápido&gt;</p>
-          <br>
-          <br>
           <div class="footeroptions">
             <p class="optiontxt">Inicio</p>
             <p class="optiontxt">Acerca de</p>

@@ -8,7 +8,7 @@
                     alt="First slide">
             </div> 
         </div>
-        <div class="contenido1">
+        <div class="contenido2">
             <!-- Titulo del carrusel -->
             <div class="titulousalab">
             <p class="titulousalabtxt">Trayectoria</p>

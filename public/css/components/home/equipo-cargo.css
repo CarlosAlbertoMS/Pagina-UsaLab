@@ -10,8 +10,10 @@
 /***** Titulo equipo de desarrollo *****/
 .equipotitle {
     display: flex;
-    width: 448px;
-    height: 56px;
+    width: auto;
+    max-width: 448px;
+    min-height: 56px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
@@ -26,6 +28,8 @@
 
 .eq {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 116px;
 }
 
