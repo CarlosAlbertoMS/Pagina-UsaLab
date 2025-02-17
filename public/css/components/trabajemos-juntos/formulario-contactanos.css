@@ -149,11 +149,3 @@ textarea {
     height: 125px;
     resize: none;
 }
-
-/* Reducir la etiqueta cuando el campo está enfocado o tiene texto
-.campo-nombre:focus + label,
-.campo-nombre:not(:placeholder-shown) + label {
-  top: -10px;
-  font-size: 12px;
-  color: #007BFF;
-} */
