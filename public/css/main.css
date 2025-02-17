@@ -82,7 +82,7 @@ main {
     flex-shrink: 0;
     background: #06052D;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 /*Seccion de inicio*/
@@ -91,27 +91,13 @@ main {
     width: 128px;
     padding: 13.5px 30px;
     margin-right: 0;
+    margin-left: clamp(0px, calc(100vw - 1360px), 81px);
     justify-content: center;
     align-items: center;
     gap: 10px;
     box-sizing: border-box;
     background: #06052D;
     transition: background-color 0.5s ease;
-}
-
-@media (min-width:1460px) {
-    .inicio {
-        display: flex;
-        width: 128px;
-        padding: 13.5px 30px;
-        margin-right: calc(100% - 1470px);
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        box-sizing: border-box;
-        background: #06052D;
-        transition: background-color 0.5s ease;
-    }
 }
 
 .inicio:hover {
@@ -424,7 +410,7 @@ main {
 .idioma {
     display: inline-flex;
     width: auto;
-    padding: 13.5px 55px 13.5px clamp(2px, 3vw, 42px);
+    padding: 13.5px clamp(15px, 3vw, 55px) 13.5px clamp(2px, 3vw, 42px);
     align-items: center;
     gap: 4px;
     box-sizing: border-box;
