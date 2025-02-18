@@ -1,4 +1,4 @@
-<div class="capacitacionYFormacionContainer">
+<div id="capacitacion-y-formacion" class="capacitacionYFormacionContainer">
     <!-- Titulo de la sección -->
     <div class="capacitacionYFormacionTitle">Capacitación y Formación</div>
 

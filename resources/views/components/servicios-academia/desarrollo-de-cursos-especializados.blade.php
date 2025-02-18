@@ -1,5 +1,5 @@
 <!-- Contenedor de la sección -->
-<div class="desarrolloDeCursosEspecializadosContainer">
+<div id="cursos-especializados" class="desarrolloDeCursosEspecializadosContainer">
     <!-- Título de la sección -->
     <div class="desarrolloDeCursosEspecializadosTitle">Desarrollo de Cursos Especializados</div>
     <!-- Card de la sección -->

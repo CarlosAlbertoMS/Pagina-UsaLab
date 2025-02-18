@@ -1,5 +1,5 @@
 <!-- Contenedor de la sección -->
-<div class="asesoriasEspecializadasContainer">
+<div id="asesorias" class="asesoriasEspecializadasContainer">
     <!-- Título de la sección -->
     <div class="asesoriasEspecializadasTitle">Asesorías especializadas</div>
     <!-- Card de la sección -->

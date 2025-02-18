@@ -1,5 +1,5 @@
 <!-- Contenedor de la sección -->
-<div class="accesoALaboratorioContainer">
+<div id="acceso-a-laboratorio" class="accesoALaboratorioContainer">
     <!-- Título de la sección -->
     <div class="accesoALaboratorioTitle">Acceso a Laboratorio</div>
     <!-- Card de la sección -->
