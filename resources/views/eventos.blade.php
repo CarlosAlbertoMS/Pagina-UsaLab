@@ -3,11 +3,12 @@
 @section('cssp')
     <!-- Hoja de estilos para el titulo de la sección "Proximos eventos" -->
     <link href="{{ asset('css/components/eventos/proximosEventos.css') }}" type="text/css" rel="stylesheet">
+     <!-- Hoja de estilos para el titulo de la sección "ultimos-eventos" -->
+    <link href="{{ asset('css/components/eventos/ultimos-eventos.css') }}" type="text/css" rel="stylesheet">
 
 @endsection
 
 @section('title','Investigaciones')
-
 @section('content')
     <!-- Contenedor para la ventana Investigación -->
     <div class="eventos-window-container">
@@ -37,7 +38,8 @@
             <!-- Descripción de la página Eventos -->
             @section('contc','La investigación en UsaLab impulsa el avance en usabilidad e interacción humano-computadora (HCI). Nos enfocamos en contribuir al ámbito académico y ofrecer soluciones innovadoras para desafíos en el diseño de sistemas y productos interactivos, explorando nuevas metodologías y evaluando tecnologías emergentes.')
         </div>
-
+        <!-- Sección "Ultimos Eventos" -->
+        <x-eventos.ultimos-eventos/>
         <!-- Sección "Proximos eventos y conferencias" -->
         <x-eventos.proximos-eventos/>
 
