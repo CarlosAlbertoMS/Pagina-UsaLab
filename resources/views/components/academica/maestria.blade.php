@@ -1,4 +1,4 @@
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+<div id="maestria" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" id="servicio">
             <div class="carousel-item active">
                 <!-- Imagenes del carrusel -->
