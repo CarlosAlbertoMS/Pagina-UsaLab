@@ -4,6 +4,7 @@
     <div class="formularioContactanosTitle">¡Contáctanos y exploremos juntos las posibilidades!</div>
     <!-- Formulario "Contáctanos" -->
     <form action="{{ route('contacto.enviar') }}" method="post" class="formularioContactanos">
+        @csrf
         <!-- Espacio para Nombre y Apellidos -->
         <div class="nombreApellidosContainer">
             <!-- Campo de texto "Nombre" -->
@@ -47,7 +48,7 @@
             <!-- Términos y condiciones -->
             <div class="terminosYCondiciones">Al proporcionar tus datos aceptas los términos y condiciones de uso y las políticas de privacidad de UsaLab. De igual forma, aceptas que podamos contactarte para reforzar nuestra oferta comercial o invitarte a estudios que realizamos con nuestros clientes.</div>
             <!-- Botón enviar -->
-            <input type="button" class="boton-enviar" value="Enviar">
+            <input type="submit" class="boton-enviar" value="Enviar">
         </div>
     </form>
 </div>
