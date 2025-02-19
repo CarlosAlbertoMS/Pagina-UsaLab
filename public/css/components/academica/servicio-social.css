@@ -1,7 +1,6 @@
 .requisitosscont{
     display: flex;
     flex-direction: column;
-
 }
 
 .requisitossCard{
@@ -20,7 +19,6 @@
 .requisitosstitulo{
     width: 614px;
     flex-shrink: 0;
-
     color: #FFF;
     font-family: Montserrat;
     font-size: 55px;

@@ -8,6 +8,7 @@
     <link href="{{ asset('css/components/academica/practicas-profesionales.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/academica/servicio-social.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/academica/tesis.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/components/academica/maestria.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
 @endsection
 
@@ -37,10 +38,14 @@ Formación Académica
     <div class="separador2"></div>
     <!-- Seccion pruebas de Usabilidad -->
     <x-academica.pruebas-usabilidad />
-    <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
+    <!--div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
             <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Sección en desarrollo: Pruebas de usabilidad      :(</div>
-        </div>
-
+        </div-->
+        <div class="separador2"></div>
+    <div class="lineadiv">
+        <div class="linea3"></div>
+    </div>
+    <div class="separador2"></div>
     <!-- Carrusel Practicas profesionales -->
      <div class="practicaprofesional" id="practicas"></div>
      <x-academica.practicas-profesionales />
@@ -68,9 +73,14 @@ Formación Académica
     </div>
     <div class="separador2"></div>
 
-    <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
-            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Sección en construcción: Maestría      :(</div>
-        </div>
+    <x-academica.maestria />
+
+    <div class="separador2"></div>
+    <div class="lineadiv">
+        <div class="linea3"></div>
+    </div>
+    <div class="separador2"></div>
+
 
     <x-hablanos />
     
