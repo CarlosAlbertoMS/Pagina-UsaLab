@@ -33,20 +33,19 @@ main {
 
 .header {
     width: 100%;
-    height: 160px;
+    height: 152px;
     flex-shrink: 0;
     display: flex;
     flex-shrink: 0;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logoutm {
     width: 128px;
     height: 128px;
     flex-shrink: 0;
-    
-    margin-top: 16px;
     box-sizing: border-box;
     animation: logoutm 1s forwards;
 }
@@ -62,8 +61,6 @@ main {
     height: 128px;
     object-fit: cover;
     flex-shrink: 0;
-    
-    margin-top: 16px;
     transform: scale(1.4);
     animation: logousalab 1s forwards;
 }
@@ -136,7 +133,7 @@ main {
 .acercadeCont {
     display: none;
     position: absolute;
-    top: 216px;
+    top: 208px;
     background: #A4C732;
     z-index: 1;
 }
@@ -195,7 +192,7 @@ main {
 .serviciosCont {
     display: none;
     position: absolute;
-    top: 216px;
+    top: 208px;
     background: #A4C732;
     z-index: 1;
 }
@@ -295,7 +292,7 @@ main {
 .investigacionesCont {
     display: none;
     position: absolute;
-    top: 216px;
+    top: 208px;
     background: #A4C732;
     z-index: 1;
 }
@@ -339,7 +336,7 @@ main {
 .formacionCont {
     display: none;
     position: absolute;
-    top: 216px;
+    top: 208px;
     background: #A4C732;
     z-index: 1;
 }
@@ -383,7 +380,7 @@ main {
 .eventosCont {
     display: none;
     position: absolute;
-    top: 216px;
+    top: 208px;
     background: #A4C732;
     z-index: 1;
 }
