@@ -41,6 +41,10 @@ Route::get('/servicios-industria', function () {
     return view('servicios-industria');
 });
 
+Route::get('/trabajemos-juntos', function () {
+    return view('trabajemos-juntos');
+});
+
 Route::get('/en-construccion', function () {
     return view('vacio');
 });

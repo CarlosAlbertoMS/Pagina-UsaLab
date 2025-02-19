@@ -1,0 +1,83 @@
+/* Estilo del contenedor de la sección */
+.desarrolloDeCursosEspecializadosContainer {
+    width: 1728px;
+    height: 1940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* Estilo del titulo de la sección */
+.desarrolloDeCursosEspecializadosTitle {
+    margin-top: 160px;
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Titulo de la subsección "¿Qué ofrecemos?" */
+.queOfrecemosTitle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Contenedor de las cards de la subsección "¿Qué ofrecemos?" */
+.queOfrecemosCardsContainer {
+    width: 1728px;
+    height: 718px;
+    display: flex;
+    overflow-x: hidden;
+    gap: 64px;
+    box-sizing: border-box;
+}
+
+/* Mostrar la barra de desplazamiento al hacer hover */
+.queOfrecemosCardsContainer:hover {
+    overflow-x: auto;
+}
+
+
+/* Estilo de las cards de la subsección "¿Qué ofrecemos?" */
+.queOfrecemosCard {
+    width: 552px;
+    height: 688px;
+    flex-shrink: 1;
+    border-radius: var(--Corner-Large, 16px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de la figura de la card */
+.queOfrecemosCardFigure {
+    fill: rgba(18, 18, 56, 0.90);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Estilo para el titulo de la card */
+.queOfrecemosCardTitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 14%;
+    text-align: center;
+}

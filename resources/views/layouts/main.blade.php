@@ -79,10 +79,10 @@
                     <div onclick="window.location.href='{{ url('/servicios-industria#consultoria-de-UX-UI') }}'" class="navbartxt">Consultoría de UX/UI</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Capacitación y formación</div>
+                    <div onclick="window.location.href='{{ url('/servicios-industria#capacitacion-y-formacion') }}'" class="navbartxt">Capacitación y formación</div>
                   </div>
                   <div class="sricontent">
-                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Desarrollo de prototipos</div>
+                    <div onclick="window.location.href='{{ url('/servicios-industria#desarrollo-de-prototipos') }}'" class="navbartxt">Desarrollo de prototipos</div>
                   </div>
                   <div class="sricontent">
                     <div onclick="window.location.href='{{ url('/en-construccion') }}'"class="navbartxt">Análisis de UX/UI</div>
@@ -103,13 +103,13 @@
                     <div onclick="window.location.href='{{ url('/servicios-academia#planes-de-estudio') }}'" class="navbartxt">Planes de estudio</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Cursos Especializados</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#cursos-especializados') }}'" class="navbartxt">Cursos Especializados</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Asesorías</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#asesorias') }}'" class="navbartxt">Asesorías</div>
                   </div>
                   <div class="sracontent">
-                    <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Acceso a Laboratorio</div>
+                    <div onclick="window.location.href='{{ url('/servicios-academia#acceso-a-laboratorio') }}'" class="navbartxt">Acceso a Laboratorio</div>
                   </div>
                 </div>
               </div>

@@ -13,11 +13,21 @@
 <!-- Hoja de estilos de la sección "Técnicas para llevar a cabo los estudios de usabilidad" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/tecnicas-de-estudio-de-usabilidad.css') }}">
 
-<!-- Hoja de estilos de la sección "Consultorí en UX/UI" -->
+<!-- Hoja de estilos de la sección "Consultoría en UX/UI" -->
 <link rel="stylesheet" href="{{ asset('css/components/servicios-industria/consultoria-en-u-x-u-i.css') }}">
+
+<!-- Hoja de estilos de la sección "Capacitación y Formación" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/capacitacion-y-formacion.css') }}">
+
+<!-- Hoja de estilos de la sección "Desarrollo Comercial" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/desarrollo-comercial.css') }}">
+
+<!-- Hoja de estilos de la sección "Desarrollo de Prototipos" -->
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/desarrollo-de-prototipos.css') }}">
 
 <!-- Hoja de estilos las cards usadas en esta ventana -->
 <link rel="stylesheet" href="{{ asset('css/components/information-card.css') }}">
+<link rel="stylesheet" href="{{ asset('css/components/servicios-industria/servicios-industria-card.css') }}">
 
 <!-- Hoja de estilos de la sección "Hablanos" -->
 <link rel="stylesheet" href="{{ asset('css/components/hablanos.css') }}">
@@ -73,13 +83,17 @@
         <!-- Sección "Consultoría en UX/UI" -->
         <x-servicios-industria.consultoria-en-u-x-u-i />
 
-        <div style="display:flex; align-content:center; justify-content:center; flex-wrap:wrap;background-image:url('{{ asset('img/UC.jpeg') }}'); width:1000px; height: 500px; margin: 80px 0px 80px 0px">
-            <div style="font-family:Montserrat; color:#FFF; font-size:40px; background-color:rgba(128,128,128,0.5);font-weight: 700;">Secciones en construcción: Capacitación y formación, Desarrollo de prototipos, Análisis de UX y Proyectos a la medida      :(</div>
-        </div>
-
         <!-- Separador segundo tipo -->
         <div class="separador2ServiciosIndustria"></div>
 
+        <!-- Sección "Capacitación y Formación" -->
+        <x-servicios-industria.capacitacion-y-formacion />
+
+        <!-- Sección "Desarrollo Comercial" -->
+        <x-servicios-industria.desarrollo-comercial />
+
+        <!-- Sección "Desarrollo de Prototipos" -->
+        <x-servicios-industria.desarrollo-de-prototipos />
 
         <!-- Sección "Hablanos" -->
         <x-hablanos />
