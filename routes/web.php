@@ -43,7 +43,22 @@ Route::get('/servicios-industria', function () {
 
 Route::get('/trabajemos-juntos', function () {
     return view('trabajemos-juntos');
-});
+})->name('contacto');
+
+Route::post('/trabajemos-juntos/enviar', function (Request $request){
+    $response = Http::post('localhost:4000/contactanos', 
+        [
+            'nombre' => $request->input('nombre'),
+            'apellidos' => $request->input('apellidos'),
+            'email' => $request->input('email'),
+            'celular' => $request->input('telefono'),
+            'pais' => $request->input('pais'),
+            'empresa' => $request->input('empresa'),
+            'descripcion_proyecto' => $request->textarea('hablanos-de-tu-proyecto')
+        ]
+    );
+    return redirect()->route('contacto')->with('info',"Correo enviado correctamente");
+})->name('contacto.enviar');
 
 Route::get('/en-construccion', function () {
     return view('vacio');
