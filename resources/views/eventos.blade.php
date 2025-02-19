@@ -38,8 +38,12 @@
             @section('contc','La investigación en UsaLab impulsa el avance en usabilidad e interacción humano-computadora (HCI). Nos enfocamos en contribuir al ámbito académico y ofrecer soluciones innovadoras para desafíos en el diseño de sistemas y productos interactivos, explorando nuevas metodologías y evaluando tecnologías emergentes.')
         </div>
 
-        <!-- Sección "Proyectos actuales" -->
+        <!-- Sección "Proximos eventos y conferencias" -->
         <x-eventos.proximos-eventos/>
+
+        <!-- Subsección "Talleres" -->
+        <x-eventos.talleres/>
+
 
     </div>
 @endsection
