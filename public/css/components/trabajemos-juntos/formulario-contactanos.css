@@ -118,16 +118,33 @@ textarea:hover + label {
     color: #000; /* Color negro */
 }
 
-/* Cambiar el color de los inputs y textarea al hacer click y editar */
+/* Mantener borde gris cuando el input tiene contenido válido */
+input:valid,
+textarea:valid {
+    border-color: #9797A0;
+    outline: none;
+}
+
+/* Mantener borde azul cuando el input tiene focus */
 input:focus,
 textarea:focus {
     border-color: #58A3C1;
     outline: none;
 }
 
-/* Placeholder styles on focus */
+/* Mantener label arriba y con color gris cuando el input tiene contenido */
+input:valid + label,
+textarea:valid + label {
+    color: #9797A0;
+    transform: translateY(-29px);
+    left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Mantener label arriba y con color azul cuando el input tiene focus */
 input:focus + label,
-textarea:focus +label {
+textarea:focus + label {
     color: #58A3C1;
     transform: translateY(-29px);
     left: 13px;
