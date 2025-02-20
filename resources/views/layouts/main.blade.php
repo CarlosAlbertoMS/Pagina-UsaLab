@@ -159,7 +159,7 @@
               <div onclick="window.location.href='{{ url('/academica#tesis') }}'" class="facontent">
                 <div class="navbartxt">Tesis</div>
               </div>
-              <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#maestria') }}'" class="facontent">
                 <div class="navbartxt">Maestría</div>
               </div>
             </div>
