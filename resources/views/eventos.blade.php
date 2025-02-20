@@ -3,6 +3,8 @@
 @section('cssp')
     <!-- Hoja de estilos para el titulo de la sección "Proximos eventos" -->
     <link href="{{ asset('css/components/eventos/proximosEventos.css') }}" type="text/css" rel="stylesheet">
+    <!-- Hoja de estilos para el light box carousel" -->
+    <link href="{{ asset('css/components/eventos/lightBox_carousel.css') }}" type="text/css" rel="stylesheet">
 
 @endsection
 

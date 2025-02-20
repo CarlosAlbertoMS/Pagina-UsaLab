@@ -7,7 +7,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
-            <x-eventos.light-box_carousel imagen="{{ asset('img/image29.png') }}" titulo="Taller de diseño de interfaces de usuario" texto="En este taller aprenderás a diseñar interfaces de usuario de alta calidad, con una experiencia de usuario excepcional y una interfaz de usuario atractiva." />
+            <x-eventos.light-box_carousel diapositiva="slide-1" lugar="First slide" statusCarouselItem="active" imagen="{{ asset('img/image29.png') }}" titulo="Taller de diseño de interfaces de usuario" texto="En este taller aprenderás a diseñar interfaces de usuario de alta calidad, con una experiencia de usuario excepcional y una interfaz de usuario atractiva." />
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
