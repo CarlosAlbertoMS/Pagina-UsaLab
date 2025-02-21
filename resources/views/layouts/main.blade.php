@@ -38,7 +38,7 @@
         <div class="menu1">
           <!-- Seccion acerca de -->
           <div class="acercade">
-            <div onclick="window.location.href='{{ url('/nosotros') }}'" class="navbartxt">Acerca de</div>
+            <div onclick="window.location.href='{{ url('/nosotros') }}'" class="navbartitle">Acerca de</div>
             <!-- Contenido acerca de -->
             <div class="acercadeCont">
               <div onclick="window.location.href='{{ url('/nosotros#mision') }}'"class="adcontent">
@@ -68,12 +68,12 @@
 
           <!-- Seccion servicios -->
           <div class="servicios">
-            <div class="navbartxt">Servicios</div>
+            <div class="navbartitle">Servicios</div>
             <!--  -->
             <div class="serviciosCont">
               <div class="srcontent">
                 <!-- Seccion servicios-industria -->
-                <div class="navbartxt">Industria</div>
+                <div class="navbartitle">Industria</div>
                 <div class="servicioindustriaCont">
                   <div class="sricontent">
                     <div class="navbartxt">Estudios de Usabilidad</div>
@@ -99,7 +99,7 @@
 
               <!-- Seccion servicios-academia -->
               <div class="srcontent">
-                <div class="navbartxt">Academia</div>
+                <div class="navbartitle">Academia</div>
                 <div class="servicioacademiaCont">
                   <!-- Contenido Servicios academia -->
                   <div class="sracontent">
@@ -124,7 +124,7 @@
           <!-- Seccion Investigaciones -->
           <div class="investigaciones">
             <!-- Redirección a la ventana "Investigaciones" -->
-            <div onclick="window.location.href='{{ url('/investigaciones') }}'" class="navbartxt">Investigaciones</div>
+            <div onclick="window.location.href='{{ url('/investigaciones') }}'" class="navbartitle">Investigaciones</div>
             <div class="investigacionesCont">
               <div class="incontent">
                 <!-- Redirección a la sección "Proyectos actuales" en la ventana "Investigaciones" -->
@@ -148,7 +148,7 @@
 
           <!-- Seccion formacion academica -->
           <div class="formacion">
-            <div onclick="window.location.href='{{ url('/academica') }}'" class="navbartxt">Formacion Académica</div>
+            <div onclick="window.location.href='{{ url('/academica') }}'" class="navbartitle">Formacion Académica</div>
             <div class="formacionCont">
               <div onclick="window.location.href='{{ url('/academica#pruebausalab') }}'" class="facontent">
                 <div class="navbartxt">Pruebas de Usabilidad</div>
@@ -171,7 +171,7 @@
 
           <!-- Seccion Eventos -->
           <div class="eventos">
-            <div class="navbartxt">Eventos</div>
+            <div class="navbartitle">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
                 <div class="navbartxt">Últimos Eventos</div>
@@ -260,3 +260,29 @@
 </body>
 
 </html>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const miDiv = document.querySelector('.header');
+    const miDiv2 = document.querySelectorAll('.acercadeCont, .serviciosCont, .investigacionesCont, .formacionCont, .eventosCont');
+    const scrollY = window.scrollY;
+
+    // Calculamos la altura dinámica según el scroll
+    let nuevaAltura = 152 - scrollY;
+    let nuevoTop = 208 - scrollY;
+
+    // Limitar la altura mínima a 48px
+    if (nuevaAltura < 48) {
+        nuevaAltura = 48;
+        nuevoTop = 104;
+    }
+
+    // Actualizamos la altura del div
+    miDiv.style.height = `${nuevaAltura}px`;
+    miDiv2.forEach(function(elemento) {
+        elemento.style.top = `${nuevoTop}px`;
+    });
+
+
+});
+</script>

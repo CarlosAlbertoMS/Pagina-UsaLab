@@ -40,11 +40,12 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: height 0.3s ease; 
 }
 
 .logoutm {
-    width: 128px;
-    height: 128px;
+    width: auto;
+    height: 70%;
     flex-shrink: 0;
     box-sizing: border-box;
     animation: logoutm 1s forwards;
@@ -57,8 +58,9 @@ main {
 }
 
 .logousalab {
-    width: 136px;
-    height: 128px;
+    width: auto;
+    height: 80%;
+
     object-fit: cover;
     flex-shrink: 0;
     transform: scale(1.4);
@@ -121,7 +123,7 @@ main {
     display: flex;
     width: auto;
     max-width: 180px;
-    padding: 13.5px clamp(2px, 2.5vw, 30.5px);    ;
+    padding: 13.5px clamp(2px, 2vw, 30.5px);    ;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -136,6 +138,7 @@ main {
     top: 208px;
     background: #A4C732;
     z-index: 1;
+    transition: top 0.3s ease; 
 }
 
 .acercade:hover {
@@ -158,6 +161,18 @@ main {
 .acercade:hover .acercadeCont {
     display: flex;
     flex-direction: column
+}
+
+/*Texto de la barra de navegacion*/
+.navbartitle {
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /*Texto de la barra de navegacion*/
@@ -195,6 +210,7 @@ main {
     top: 208px;
     background: #A4C732;
     z-index: 1;
+    transition: top 0.3s ease; 
 }
 
 .serviciosCont .srcontent {
@@ -295,6 +311,7 @@ main {
     top: 208px;
     background: #A4C732;
     z-index: 1;
+    transition: top 0.3s ease; 
 }
 
 .investigacionesCont .incontent {
@@ -364,7 +381,7 @@ main {
     display: flex;
     width: auto;
     max-width: 180px;
-    padding: 13.5px clamp(2px, 3vw, 42px);
+    padding: 13.5px clamp(2px, 2vw, 42px);
     justify-content: center;
     align-items: center;
     gap: 10px;
