@@ -50,33 +50,27 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.32px;
+    width: 278px;
+    height: 116px;
 
 }
 
 #titulo-1 {
-    width: 276.144px;
-    height: 100.128px;
     margin-left: 43.6px;
     margin-top: 57.67px;
 }
 
 #titulo-2 {
-    width: 277.408px;
-    height: 100.128px;
     margin-left: 43.6px;
     margin-top: 57.67px;
 }
 
 #titulo-3 {
-    width: 269.825px;
-    height: 100.128px;
-    margin-left: 43.6px;
+    margin-left: 25.6px;
     margin-top: 44.36px;
 }
 
 #titulo-4 {
-    width: 261px;
-    height: 116px;
     margin-left: 71.81px;
     margin-top: 38px;
 }
@@ -121,7 +115,7 @@
 .ContenedorSVG {
     position: absolute;
     width: 355px;
-    height: 224.337px;
+    height: 230px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
