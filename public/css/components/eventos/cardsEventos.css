@@ -1,0 +1,50 @@
+/************************Estilo para el contenedor para una card *********************/
+
+.contenedorCard {
+    display: flex;
+    width: 348px;
+    height: 436px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Medium, 12px);
+    justify-content: center;
+}
+
+/************************Estilo para el contenedor de el vector *********************/
+
+.ContenedorSVG {
+    position: absolute;
+    width: 355px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContenedorSVG svg {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    fill-opacity: 0.90;
+}
+
+/************************Estilo para el  titulo de una cards *********************/
+
+.contenedorTituloCard {
+    position: relative;
+    z-index: 2;
+    width: 278px;
+    height: 116px;
+    margin-left: 35px;
+    margin-top: 38px;
+}
+
+.tituloCard {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}

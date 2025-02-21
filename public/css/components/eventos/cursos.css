@@ -1,3 +1,4 @@
+/************************Estilo para los titulos cursos y profesores *********************/
 .titulo {
     color: #000;
     text-align: center;
@@ -17,6 +18,7 @@
     margin-bottom: 0px;
 }
 
+/************************Estilo para el contenedor de toda la sección *********************/
 .contenedorCursos {
     display: flex;
     justify-content: center;
@@ -25,10 +27,13 @@
     margin-top: 0px;
 }
 
+/************************Estilo para el contenedor de toda la subseccion carrusel *********************/
+
 .contenedorCarrusel {
     height: 418px;
 }
 
+/************************Estilo para el contenedor de toda la subseccion profesores titulo y cards *********************/
 .contenedorProfesores {
     display: flex;
     justify-content: center;
@@ -37,43 +42,7 @@
     margin-top: 0px;
 }
 
-.contenedorTituloCard {
-    position: relative;
-    z-index: 2;
-}
-
-.tituloCard {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.32px;
-    width: 278px;
-    height: 116px;
-
-}
-
-#titulo-1 {
-    margin-left: 43.6px;
-    margin-top: 57.67px;
-}
-
-#titulo-2 {
-    margin-left: 43.6px;
-    margin-top: 57.67px;
-}
-
-#titulo-3 {
-    margin-left: 25.6px;
-    margin-top: 44.36px;
-}
-
-#titulo-4 {
-    margin-left: 71.81px;
-    margin-top: 38px;
-}
+/************************Estilo para el contenedor de toda la subseccion profesores cards *********************/
 
 .contenedorCards {
     position: relative;
@@ -85,50 +54,7 @@
 
 }
 
-.contenedorCard {
-    display: flex;
-    width: 348px;
-    height: 436px;
-    flex-shrink: 0;
-    border-radius: var(--Corner-Medium, 12px);
-    justify-content: center;
-}
-
-
-
-#card-1 {
-    background: url("../../../photos/drManuelHernandez.png") rgb(255, 255, 255) center / cover no-repeat;
-}
-
-#card-2 {
-    background: url("../../../photos/mcGenerardo.png") rgb(255, 255, 255) center / cover no-repeat;
-}
-
-#card-3 {
-    background: url("../../../photos/mcJuanJuarez.png") rgb(255, 255, 255) center / cover no-repeat;
-}
-
-#card-4 {
-    background: url("../../../photos/mcGabrielGeronimo.png") rgb(255, 255, 255) center / cover no-repeat;
-}
-
-.ContenedorSVG {
-    position: absolute;
-    width: 355px;
-    height: 230px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ContenedorSVG svg {
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    fill: rgba(18, 18, 56, 0.90);
-}
-
+/************************Estilo para el separador a final de la seccion *********************/
 
 .separador {
     width: 1320px;

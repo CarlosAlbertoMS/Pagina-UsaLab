@@ -3,11 +3,12 @@
 @section('cssp')
     <!-- Hoja de estilos para el titulo de la sección "Proximos eventos" -->
     <link href="{{ asset('css/components/eventos/proximosEventos.css') }}" type="text/css" rel="stylesheet">
-    <!-- Hoja de estilos para el titulo de la sección "ultimos-eventos" -->
+    <!-- Hoja de estilos para la sección "ultimos-eventos" -->
     <link href="{{ asset('css/components/eventos/ultimos-eventos.css') }}" type="text/css" rel="stylesheet">
-    <!-- Hoja de estilos para el titulo de la sección "cursos   " -->
+    <!-- Hoja de estilos para la sección "cursos   " -->
     <link href="{{ asset('css/components/eventos/cursos.css') }}" type="text/css" rel="stylesheet">
-
+     <!-- Hoja de estilos para el Cponente "CardsEventos" -->
+     <link href="{{ asset('css/components/eventos/cardsEventos.css') }}" type="text/css" rel="stylesheet">
 @endsection
 
 @section('title', 'Investigaciones')
