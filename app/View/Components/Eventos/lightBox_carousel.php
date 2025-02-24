@@ -9,6 +9,9 @@ class lightBox_carousel extends Component
     public $titulo;
     public $texto;
     public $imagen;
+    public $diapositiva;
+    public $lugar;
+    public $statusCarouselItem;
     /**
      * Create a new component instance.
      *
@@ -19,6 +22,9 @@ class lightBox_carousel extends Component
         $this->titulo = $titulo;
         $this->texto = $texto;
         $this->imagen = $imagen;
+        $this->diapositiva = $diapositiva;
+        $this->lugar = $lugar;
+        $this->statusCarouselItem = $statusCarouselItem;
     }
 
     /**
