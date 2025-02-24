@@ -46,6 +46,78 @@
         <!-- Subsección "Talleres" -->
         <x-eventos.talleres/>
 
+        <!-- Subsección "Concursos" -->
+        <x-eventos.concursos/>
 
-    </div>
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Lista de IDs de los carruseles que necesitan el comportamiento personalizado
+    const targetCarousels = ['carouselProximosEventos', 'carouselTalleres', 'carouselConcursos1', 'carouselConcursos2'];
+
+    targetCarousels.forEach(id => {
+        const myCarouselElement = document.getElementById(id);
+        if (myCarouselElement) {
+            const carousel = new bootstrap.Carousel(myCarouselElement, {
+                interval: false, // Cambia las diapositivas solo con los botones
+                touch: false // Opcional: desactiva el deslizamiento táctil
+            });
+
+            // Botones de navegación prev/next dentro del carrusel actual
+            const prevButton = myCarouselElement.querySelector('.carousel-control-prev');
+            const nextButton = myCarouselElement.querySelector('.carousel-control-next');
+
+            if (prevButton) {
+                prevButton.addEventListener('click', function () {
+                    carousel.prev();
+                });
+            }
+
+            if (nextButton) {
+                nextButton.addEventListener('click', function () {
+                    carousel.next();
+                });
+            }
+
+            // Seleccionar todos los slides dentro del carrusel específico
+            const slides = myCarouselElement.querySelectorAll('.carousel-item');
+
+            // Evento para hacer clic en cada slide
+            slides.forEach(slide => {
+                slide.addEventListener('click', () => {
+                    // Obtener elementos del slide actual
+                    const image = slide.querySelector('.slide-image');
+                    const title = slide.querySelector('.slide-title');
+                    const extraText = slide.querySelector('.extra-text');
+
+                    // Verificar si ya está activo o no
+                    if (image.classList.contains('dimmed')) {
+                        // Restaurar el estado original
+                        image.classList.remove('dimmed');
+                        title.classList.remove('shrink');
+                        extraText.classList.remove('show');
+                        extraText.classList.add('d-none');
+                    } else {
+                        // Aplicar cambios al hacer clic
+                        image.classList.add('dimmed');
+                        title.classList.add('shrink');
+                        extraText.classList.add('show', 'move-right');
+                        extraText.classList.remove('d-none');
+                    }
+                });
+            });
+
+            // Mantener el estado actual al cambiar de slide
+            myCarouselElement.addEventListener('slid.bs.carousel', () => {
+                slides.forEach(slide => {
+                    const image = slide.querySelector('.slide-image');
+                    const title = slide.querySelector('.slide-title');
+                    const extraText = slide.querySelector('.extra-text');
+                });
+            });
+        }
+    });
+});
+</script>
+
+
 @endsection

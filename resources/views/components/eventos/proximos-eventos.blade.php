@@ -7,13 +7,13 @@
   <div class="ContenedorConferencias"> 
     <div class="ContenedorSubtituloConferencias SubtituloConferencias"> Conferencias </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div id="carouselProximosEventos" class="carousel slide carousel-fade">
 
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselProximosEventos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselProximosEventos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselProximosEventos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselProximosEventos" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       
       <div class="carousel-inner">
@@ -46,11 +46,11 @@
                                       texto="Saber cómo retener usuarios en una app es igual o más importante que saber atraerlos. Para ello es necesario crear las estrategias adecuadas que permitan desarrollar nuevas formas de conectar con los usuarios y crear así relaciones a largo plazo." />                              
       </div>
       
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProximosEventos" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProximosEventos" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -63,60 +63,3 @@
 
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const myCarouselElement = document.querySelector('#carouselExampleCaptions');
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-    interval: false, // Cambia las diapositivas solo con los botones
-    touch: false // Opcional: desactiva el deslizamiento táctil
-  });
-
-  // Opcional: Agregar funcionalidad adicional si lo necesitas
-  const prevButton = document.querySelector('.carousel-control-prev');
-  prevButton.addEventListener('click', function () {
-    carousel.prev();
-  });
-
-  const nextButton = document.querySelector('.carousel-control-next');
-  nextButton.addEventListener('click', function () {
-    carousel.next();
-  });
-
-  // Seleccionar todos los slides
-  const slides = document.querySelectorAll('.carousel-item');
-
-  // Evento para hacer clic en cada slide
-  slides.forEach(slide => {
-    slide.addEventListener('click', () => {
-      // Obtener elementos del slide actual
-      const image = slide.querySelector('.slide-image');
-      const title = slide.querySelector('.slide-title');
-      const extraText = slide.querySelector('.extra-text');
-
-      // Verificar si ya está activo o no
-      if (image.classList.contains('dimmed')) {
-        // Restaurar el estado original
-        image.classList.remove('dimmed');
-        title.classList.remove('shrink');
-        extraText.classList.remove('show');
-        extraText.classList.add('d-none');
-      } else {
-        // Aplicar cambios al hacer clic
-        image.classList.add('dimmed');
-        title.classList.add('shrink');
-        extraText.classList.add('show', 'move-right');
-        extraText.classList.remove('d-none');
-      }
-    });
-  });
-
-  // Mantener el estado actual al cambiar de slide
-  myCarouselElement.addEventListener('slid.bs.carousel', () => {
-    slides.forEach(slide => {
-      const image = slide.querySelector('.slide-image');
-      const title = slide.querySelector('.slide-title');
-      const extraText = slide.querySelector('.extra-text');
-    });
-  });
-});
-</script>
