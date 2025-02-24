@@ -1,11 +1,11 @@
 <div class="contenedorCursos">
-    <div class="contenedorTitulo">
-        <div class="titulo">Cursos</div>
+    <div class="contenedorSubtituloCursos">
+        <div class="subtitulo">Cursos</div>
     </div>
     <div class="contenedorCarrusel"> </div>
     <div class="contenedorProfesores">
-        <div class="contenedorTitulo">
-            <div class="titulo">Profesores</div>
+        <div class="contenedorSubtituloProfesores">
+            <div class="subtitulo">Profesores</div>
         </div>
         <div class="contenedorCards">
 

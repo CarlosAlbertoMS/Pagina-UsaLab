@@ -1,23 +1,4 @@
-.ProximosEventosTitulo {
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.ProximosEventosContenedorTitulo {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 160px;
-    margin-bottom: 0px;
-}
-
-.ContenedorProximosEventos {
+.contenedorTalleres{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,17 +6,7 @@
     margin-top: 0px;
 }
 
-/*         Conferencias                   */
-
-.ContenedorConferencias{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-}
-
-.ContenedorSubtituloConferencias{
+.contenedorSubtituloTalleres{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -44,7 +15,7 @@
     margin-bottom: 80px;
 }
 
-.SubtituloConferencias{
+.subtituloTalleres{
     color: #000;
     text-align: center;
     font-family: Montserrat;
@@ -54,12 +25,11 @@
     line-height: normal;
 }
 
-
 /**********************************************/
 
-/*         Conferencistas                   */
+/*        Talleristas                  */
 
-.contenedorConferencistas {
+.contenedorTalleristas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +37,7 @@
     margin-top: 0px;
 }
 
-.subtituloConferencistas {
+.subtituloTalleristas {
     color: #000;
     text-align: center;
     font-family: Montserrat;
@@ -77,12 +47,12 @@
     line-height: normal;
 }
 
-.contenedorSubtituloConferencistas {
+.contenedorSubtituloTalleristas {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 0px;
 }
 /************************Estilo para el contenedor de toda la subseccion conferencistas cards *********************/

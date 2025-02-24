@@ -1,4 +1,6 @@
-<div class="ContenedorTalleres">
+<div class="contenedorTalleres">
+<div class="contenedorSubtituloTalleres subtituloTalleres"> Talleres </div>
+
     <div id="carouselTalleres" class="carousel slide carousel-fade">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselTalleres" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -21,5 +23,29 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
+    <div class="contenedorTalleristas">
+        <div class="contenedorSubtituloTalleristas">
+            <div class="subtituloTalleristas">Talleristas</div>
+        </div>
+        <div class="contenedorCards">
+
+            <x-eventos.cards-eventos color="rgb(167, 199, 65)" imagen="{{ asset('photos/Dr. Carlos.png') }}"
+                titulo="Dr. Carlos Alberto Fernandez" />
+
+            <x-eventos.cards-eventos color="rgb(167, 199, 65)" imagen="{{ asset('photos/Dr. Eduardo.png') }}"
+                titulo="Dr. Eduardo Sanchez" />
+
+            <x-eventos.cards-eventos color="rgb(167, 199, 65)" imagen="{{ asset('photos/M.C. Everth.png') }}"
+                titulo="M.C. Everth Haidee Rocha" />
+
+            <x-eventos.cards-eventos color="rgb(167, 199, 65)" imagen="{{ asset('photos/M.E.C. Celia.png') }}"
+                titulo="M.E.C. Celia Bertha Reyes" />
+
+
+        </div>
+    </div>
+    <div class="separador"></div> 
+
 </div>
 
