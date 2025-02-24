@@ -1,7 +1,5 @@
 <div class="contenedorCursos">
-    <div class="contenedorSubtituloCursos">
-        <div class="subtitulo">Cursos</div>
-    </div>
+    <div class="contenedorSubtituloCursos subtitulo">Cursos</div>
     <div class="contenedorCarrusel"> </div>
     <div class="contenedorProfesores">
         <div class="contenedorSubtituloProfesores">
