@@ -25,9 +25,24 @@
         <div class="requisitosstitle">Requisitos</div>
         <div class="requisitosscont">
             <div class="requisitossCard">
-                <img class="requisitossimg" src="{{ asset('photos/requisitosSS1.png') }}" alt="">
+                <img class="requisitossimg" src="{{ asset('img/FA_SS_R1.png') }}" alt="">
                 <div class="requisitosstitulo">Estar inscrito en una carrera relacionada</div>
                 <div class="requisitossp">Capacidad para colaborar en proyectos multidisciplinarios junto a diseñadores, programadores y expertos en usabilidad.</div>
+            </div>
+            <div class="requisitossCard">
+                <img class="requisitossimg" src="{{ asset('img/FA_SS_R2.png') }}" alt="">
+                <div class="requisitosstitulo">Interés en usabilidad y diseño web</div>
+                <div class="requisitossp">Familiaridad con HTML, CSS y JavaScript, suficiente para crear o modificar sitios web, y entender los principios básicos del diseño responsivo.</div>
+            </div>
+            <div class="requisitossCard">
+                <img class="requisitossimg" src="{{ asset('img/FA_SS_R3.png') }}" alt="">
+                <div class="requisitosstitulo">Compromiso y responsabilidad</div>
+                <div class="requisitossp">Capacidad para colaborar en proyectos multidisciplinarios junto a diseñadores, programadores y expertos en usabilidad.</div>
+            </div>
+            <div class="requisitossCard">
+                <img class="requisitossimg" src="{{ asset('img/FA_SS_R4.png') }}" alt="">
+                <div class="requisitosstitulo">Interés por la investigación de usuarios</div>
+                <div class="requisitossp">Familiaridad o interés en aprender sobre métodos de usuarios y pruebas de usabilidad.</div>
             </div>
         </div>
     </div>

@@ -1,0 +1,72 @@
+/* Estilo del contenedor de la sección */
+.capacitacionYFormacionContainer {
+    width: 1728px;
+    height: 2048px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* Estilo para el titulo de la sección */
+.capacitacionYFormacionTitle {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+    height: 55px;
+    margin-bottom: 88px;
+}
+
+/* Estilo para más información de la sección */
+.masInformacionCapacitacionYFormacionContainer {
+    margin-top: 80px;
+    width: 1728px;
+    height: 435px;
+    flex-shrink: 0;
+}
+
+/* Estilo para el texto de mas información de la sección */
+.masInformacionCapacitacionYFormacion {
+    margin-top: 84px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/* Estilo para el subtitulo de la sección */
+.capacitacionYFormacionSubtitle {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Estilo del contenedor de las cards */
+.areasClaveCardsContainer {
+    width: 100%;
+    height: 473px;
+    display: flex;
+    overflow-x: hidden; /* Ocultar la barra de desplazamiento por defecto */
+    gap: 6px;
+    box-sizing: border-box;
+}
+
+/* Mostrar la barra de desplazamiento al hacer hover */
+.areasClaveCardsContainer:hover {
+    overflow-x: auto; /* Mostrar la barra de desplazamiento al hacer hover */
+}

@@ -1,0 +1,52 @@
+.requisitosscont{
+    display: flex;
+    flex-direction: column;
+}
+
+.requisitossCard{
+    position: relative;
+    width: 1728px;
+    height: 324px;
+    margin: 20px 0 20px 0;
+}
+
+.requisitossCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.requisitosstitulo{
+    width: 614px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    position: absolute;
+    top:50%;
+    left: 119px;
+    transform: translate(0%, -50%);
+}
+
+.requisitossp{
+    width: 715px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+
+    position: absolute;
+    top:50%;
+    right: 120px;
+    transform: translate(0%, -50%);
+}

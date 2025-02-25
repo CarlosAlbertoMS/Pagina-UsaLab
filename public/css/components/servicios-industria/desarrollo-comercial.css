@@ -1,0 +1,39 @@
+/* Estilo del contenedor de la sección */
+.desarrolloComercialContainer {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    width: 1728px;
+    height: 616px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* Estilo del titulo de la sección */
+.desarrolloComercialTitle {
+    margin-top: 80px;
+    margin-bottom: 82px;
+    color: #FCFEF9;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/* Estilo del texto de la sección */
+.desarrolloComercialText {
+    width: 1392px;
+    color: #FAFAF9;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}

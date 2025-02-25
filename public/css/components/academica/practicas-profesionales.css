@@ -1,33 +1,43 @@
-.requisitossCard {
+.requisitoppcont{
     display: flex;
+    flex-direction: column;
+
 }
 
-.requisitossimg {
+.requisitoppCard{
+    position: relative;
     width: 1728px;
-    height: 418px;
-    flex-shrink: 0;
+    height: 324px;
+    margin: 20px 0 20px 0;
+}
+
+.requisitoppCard img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
-.requisitosstitulo {
+.requisitopptitulo{
     width: 614px;
-    height: 134px;
     flex-shrink: 0;
+
     color: #FFF;
     font-family: Montserrat;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
     position: absolute;
-    margin-top: 64px;
-    margin-left: 113px;
+    top:50%;
+    left: 119px;
+    transform: translate(0%, -50%);
 }
 
-.requisitossp {
-    width: 1079px;
-    height: 76px;
+.requisitoppp{
+    width: 715px;
     flex-shrink: 0;
+
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -36,7 +46,9 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.32px;
+
     position: absolute;
-    margin-top: 278px;
-    margin-left: 325px;
+    top:50%;
+    right: 120px;
+    transform: translate(0%, -50%);
 }

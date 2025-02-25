@@ -19,8 +19,30 @@
     </div>
     <!-- Termina carrusel Practicas profesionales -->
 
-    <div class="separador3"></div>
+    <!--div class="separador3"></div-->
     <!-- Seccion Requisitos -->
-    <div class="requisitosp">'
-        <div class="requisitosptitle">Requisitos</div>
+    <div class="requisitoss">'
+        <div class="requisitosstitle">Requisitos</div>
+        <div class="requisitoppcont">
+            <div class="requisitoppCard">
+                <img class="requisitoppimg" src="{{ asset('img/FA_PP_R1.png') }}" alt="">
+                <div class="requisitopptitulo">Estudiante de ingeniería</div>
+                <div class="requisitoppp">Debe estar familiarizado con la rama de la ingeniería, enfocándose en área de diseño web o programación.</div>
+            </div>
+            <div class="requisitoppCard">
+                <img class="requisitoppimg" src="{{ asset('img/FA_PP_R2.png') }}" alt="">
+                <div class="requisitopptitulo">Conocimientos básicos en desarrollo y diseño</div>
+                <div class="requisitoppp">Familiaridad con HTML, CSS y JavaScript, suficiente para crear o modificar sitios web, y entender los principios básicos del diseño responsivo.</div>
+            </div>
+            <div class="requisitoppCard">
+                <img class="requisitoppimg" src="{{ asset('img/FA_PP_R3.png') }}" alt="">
+                <div class="requisitopptitulo">Compromiso y responsabilidad</div>
+                <div class="requisitoppp">Capacidad para colaborar en proyectos multidisciplinarios junto a diseñadores, programadores y expertos en usabilidad.</div>
+            </div>
+            <div class="requisitoppCard">
+                <img class="requisitoppimg" src="{{ asset('img/FA_PP_R4.png') }}" alt="">
+                <div class="requisitopptitulo">Creatividad y capacidad técnica</div>
+                <div class="requisitoppp">Capacidad para desarrollar ideas innovadoras y comprender su equipo de trabajo.</div>
+            </div>
+        </div>
     </div>

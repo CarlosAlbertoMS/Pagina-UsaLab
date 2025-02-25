@@ -1,0 +1,15 @@
+/* Estilo de la ventana "Servicios: Academia" */
+.servicios-academia-window-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para el separador de la sección */
+.separador-servicios-academia {
+    margin-top: 153px;
+    margin-bottom: 126px;
+    width: 1295px;
+    height: 2px;
+    background: #D4D4D4;
+}

@@ -9,5 +9,5 @@
     Aprendimos y adoptamos una cultura de negocios sin perder de vista nuestros orígenes académicos que mantenemos
     en alta estima.</div>
   <div class="separador5"></div>
-  <div class="card-button">Más Información</div>
+  <div onclick="window.location.href='{{ url('/servicios-industria') }}'" class="card-button">Más Información</div>
 </div>

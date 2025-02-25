@@ -1,0 +1,168 @@
+/* Estilo del contenedor del formulario */
+.formularioContactanosContainer{
+    margin-top: 164px;
+    width: 1014px;
+}
+
+/* Estilo del titulo del formulario */
+.formularioContactanosTitle {
+    margin-bottom: 72px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Estilo del formulario */
+.formularioContactanos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+/* Estilo del contenedor de los campos Nombre y Apellidos */
+.nombreApellidosContainer{
+    display: flex;
+    gap: 3%;
+}
+
+/* Estilos de los contenedores de los inputs */
+.inputContainer {
+    min-width: 48.5%;
+    position: relative;
+}
+
+/* Estilos de los contenedores de losTextArea */
+.textAreaContainer {
+    position: relative;
+}
+
+/* Estilo para el contenedor para los términos y condiciones */
+.terminosYBotonContainer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Estilo para Términos y condiciones */
+.terminosYCondiciones {
+    width: 722px;
+    color: #000;
+    font-family: "Arno Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Estilo para Botón enviar */
+.boton-enviar {
+    width: 280.64px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Full, 1000px);
+    background: #06052D;
+    
+    /* Propiedades de texto */
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ESTILO GENERALES PARA EL FORMULARIO */
+
+/* Estilos de los labels */
+label {
+    top: 18px;
+    left: 18px;
+    padding-right: 4px;
+    padding-left: 3px;
+    background-color: #FFF;
+    color: rgba(58, 58, 77, 0.50);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+/* Estilos para los input y textarea */
+input,
+textarea {
+    width: 100%;
+    padding-left: 18px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #9797A0;
+    border-radius: 12px;
+}
+
+/* Cambiar el color de los inputs y textarea al hacer hover */
+input:hover,
+textarea:hover {
+    border-color: #000;
+}
+
+/* Cambiar el color del label al hacer hover */
+input:hover + label,
+textarea:hover + label {
+    color: #000; /* Color negro */
+}
+
+/* Mantener borde gris cuando el input tiene contenido válido */
+input:valid,
+textarea:valid {
+    border-color: #9797A0;
+    outline: none;
+}
+
+/* Mantener borde azul cuando el input tiene focus */
+input:focus,
+textarea:focus {
+    border-color: #58A3C1;
+    outline: none;
+}
+
+/* Mantener label arriba y con color gris cuando el input tiene contenido */
+input:valid + label,
+textarea:valid + label {
+    color: #9797A0;
+    transform: translateY(-29px);
+    left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Mantener label arriba y con color azul cuando el input tiene focus */
+input:focus + label,
+textarea:focus + label {
+    color: #58A3C1;
+    transform: translateY(-29px);
+    left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Configuraciones para el tamaño de los input */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    height: 62px;
+    min-width: 48.5%;
+}
+
+/* Confuguraciones para los textarea */
+textarea {
+    /* padding-top: 21px; */
+    height: 125px;
+    resize: none;
+}

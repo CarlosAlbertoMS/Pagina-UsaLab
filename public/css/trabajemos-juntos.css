@@ -1,0 +1,25 @@
+/* CONTENEDOR DE LA VENTANA TRABAJEMOS JUNTOS */
+.trabajemos-juntos-window-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo de la frase en la ventana */
+.frase {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    width: 1015px;
+    height: 253px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
