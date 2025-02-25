@@ -7,41 +7,22 @@
                 diapositiva="slide-1" 
                 lugar="First slide" 
                 statusCarouselItem="active" 
-                imagen="{{ asset('img/image5.png') }}" 
-                titulo="Taller de diseño de interfaces de usuario" 
-                texto="En este taller aprenderás a diseñar interfaces de usuario de alta calidad, con una experiencia de usuario excepcional y una interfaz de usuario atractiva." />
+                imagen="{{ asset('img/image13.png') }}" 
+                titulo="MexICH 2024" 
+                texto="El objetivo principal de MexIHC es facilitar el intercambio de resultados científicos, su aplicación en la industria y su aplicación en la evaluación, diseño de interfaces, industria, educación, videojuegos, móviles, aplicaciones interactivas y áreas afines. En esta ocasión, MexIHC 2024 está siendo organizada por docentes e investigadores en la comunidad de HCI en México." />
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselConcursos1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselConcursos1" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <!-- Segundo carrusel -->
-    <div id="carouselConcursos2" class="carousel slide carousel-fade">
+    <div id="carouselConcursos2" class="carousel slide carousel-fade contenedorslider2">
         <div class="carousel-inner">
             <x-eventos.light-box_carousel 
                 diapositiva="slide-2" 
                 lugar="Second slide" 
                 statusCarouselItem="active" 
-                imagen="{{ asset('img/image5.png') }}" 
-                titulo="Taller de diseño de interfaces de usuario" 
-                texto="En este taller aprenderás a diseñar interfaces de usuario de alta calidad, con una experiencia de usuario excepcional y una interfaz de usuario atractiva." />
+                imagen="{{ asset('img/image14.png') }}" 
+                titulo="CHI 2025" 
+                texto="La conferencia CHI de la ACM (Asociación de Maquinaria Computacional) sobre Factores Humanos en Sistemas Computacionales es la principal conferencia internacional sobre interacción hombre-computadora. CHI se llevará a cabo en Yokohama, Japón, en PACIFICO Yokohama del 26 de abril al 1 de mayo de 2025, y también admitirá asistencia remota." />
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselConcursos2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselConcursos2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-
 </div>

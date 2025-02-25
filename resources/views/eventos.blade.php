@@ -9,8 +9,11 @@
     <link href="{{ asset('css/components/eventos/cursos.css') }}" type="text/css" rel="stylesheet">
     <!-- Hoja de estilos para el light box carousel" -->
     <link href="{{ asset('css/components/eventos/lightBox_carousel.css') }}" type="text/css" rel="stylesheet">
-     <!-- Hoja de estilos para el Cponente "CardsEventos" -->
-     <link href="{{ asset('css/components/eventos/cardsEventos.css') }}" type="text/css" rel="stylesheet">
+    <!-- Hoja de estilos para el Cponente "CardsEventos" -->
+    <link href="{{ asset('css/components/eventos/cardsEventos.css') }}" type="text/css" rel="stylesheet">
+    <!-- Hoja de estilos para la subsecciòn "Concursos" -->
+    <link href="{{ asset('css/components/eventos/concursos.css') }}" type="text/css" rel="stylesheet">
+
 @endsection
 
 @section('title', 'Investigaciones')
