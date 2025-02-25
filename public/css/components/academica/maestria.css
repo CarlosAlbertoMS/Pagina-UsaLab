@@ -1,0 +1,329 @@
+/***Letreo verde de los objetivos generales*/
+
+.objetivoMaestria
+{
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    height: 554px;
+    flex-shrink: 0;
+    background: #A7C741;
+    padding: 80px 329px 114px 335px;
+    align-items: center;
+}
+
+.objetivoMaestriaTitulo
+{
+    display: flex;
+
+    flex-shrink: 0;
+    margin-bottom: 46px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items:  center;
+}
+
+.objetivoMaestriaCont
+{
+    width: 1064px;
+    height: 194px;
+    flex-shrink: 0;
+    padding-top: 53px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/**************Estilos para el perfil de ingreso****************/
+
+.perfilIngresoMaestria
+{
+    display: flex;
+    flex-direction: row;
+    width: 1728x;
+    height: 992px;
+}
+
+.perfilIngresoMaestriaBox
+{
+    padding: 257px 115px 228px 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfilIngresoMaestriaTitulo
+{
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.perfilIngresoMaestriaCont
+{
+    padding-top: 80px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.perfilIngresoMaestria img
+{
+    margin-top: 80px;
+    margin-right: 181px;
+}
+
+.tarjetasMC
+{
+    margin-top: 80px;
+}
+
+.tituloTarTextoMC
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    color:white;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 374px;
+}
+
+
+
+.egreso
+{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tituloEgreso
+{
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 169px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.textoEgreso
+{
+    position: absolute;
+    width: 1480px;
+    height: 233px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+
+    margin-top: 139px;
+    margin-left: 169px;
+}
+
+.procesoAdministrativo
+{
+    display: flex;
+    flex-direction: column;
+}
+.procesoAdministrativoTitulo
+{
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.procesoAdministrativoFechas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procesoAdministrativoFechasTitulo
+{
+    flex-shrink: 0;
+    color:#000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 94px;
+}
+
+.procesoAdministrativoFechasTexto
+{
+    width: 1172px;
+
+    flex-shrink: 0;
+    color:#000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.procesoAdministrativoDocumentacion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    background: #06052D;
+}
+
+.procesoAdministrativoDocumentacionTitulo
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 56px;
+}
+
+.procesoAdministrativoDocumentacionTexto
+{
+    color:#FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 56px;
+    width: 1200px;
+}
+
+.avisoMC
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.avisoMCTitulo
+{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.avisoMCTexto
+{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 1550px;
+}
+
+.avisoMCTexto a
+{
+    color: #000;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.informesMC
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.informesMCTitulo
+{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.informesMCTexto
+{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 1510px;
+}
+
+.informesMCTexto a
+{
+    color: #000;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}

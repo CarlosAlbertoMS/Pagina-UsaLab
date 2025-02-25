@@ -159,7 +159,7 @@
               <div onclick="window.location.href='{{ url('/academica#tesis') }}'" class="facontent">
                 <div class="navbartxt">Tesis</div>
               </div>
-              <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="facontent">
+              <div onclick="window.location.href='{{ url('/academica#maestria') }}'" class="facontent">
                 <div class="navbartxt">Maestría</div>
               </div>
             </div>
@@ -168,22 +168,23 @@
 
           <!-- Seccion Eventos -->
           <div class="eventos">
-            <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Eventos</div>
+            <div onclick="window.location.href='{{ url('/eventos') }}'" class="navbartxt">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Últimos Eventos</div>
+                <!-- Redirección a la sección ultimos eventos -->
+                 <div onclick="window.location.href='{{ url('/eventos#ultimos-eventos') }}'" class="navbartxt">Últimos Eventos</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Conferencias</div>
+                <div onclick="window.location.href='{{ url('/eventos#conferencias') }}'" class="navbartxt">Conferencias</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Talleres</div>
+                <div onclick="window.location.href='{{ url('/eventos#talleres') }}'" class="navbartxt">Talleres</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Cursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#cursos') }}'" class="navbartxt">Cursos</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Concursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#concursos') }}'" class="navbartxt">Concursos</div>
               </div>
             </div>
           </div>

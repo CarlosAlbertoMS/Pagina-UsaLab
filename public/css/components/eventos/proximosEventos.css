@@ -1,0 +1,107 @@
+.ProximosEventosTitulo {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ProximosEventosContenedorTitulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+.ContenedorProximosEventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+/*         Conferencias                   */
+
+.ContenedorConferencias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.ContenedorSubtituloConferencias{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.SubtituloConferencias{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/**********************************************/
+
+/*         Conferencistas                   */
+
+.contenedorConferencistas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.subtituloConferencistas {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contenedorSubtituloConferencistas {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+/************************Estilo para el contenedor de toda la subseccion conferencistas cards *********************/
+
+.contenedorCards {
+    position: relative;
+    width: 1509px;
+    height: 436px;
+    margin-top: 80px;
+    display: flex;
+    gap: 37.91px;
+
+}
+
+/************************Estilo para el separador a final de la seccion *********************/
+
+.separadorConferencias{
+    width: 1320px;
+    height: 2px;
+    background: #DADADA;
+    margin-top: 160px;
+}
