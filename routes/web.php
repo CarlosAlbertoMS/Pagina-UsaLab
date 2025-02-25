@@ -42,6 +42,10 @@ Route::get('/servicios-industria', function () {
     return view('servicios-industria');
 });
 
+Route::get('/eventos', function(){
+    return view('eventos');
+});
+
 Route::get('/trabajemos-juntos', function () {
     return view('trabajemos-juntos');
 })->name('contacto');
