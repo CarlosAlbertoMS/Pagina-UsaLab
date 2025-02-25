@@ -30,7 +30,7 @@
     display: flex;
     width: auto;
     max-width: 1344px;
-    height: 232px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;

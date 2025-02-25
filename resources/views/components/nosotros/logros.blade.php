@@ -17,7 +17,9 @@
                 <div class="cuadrop">Primer Lugar, San Luis Potosí</div>
             </div>
             <!-- Logo UTM -->
-            <img class="cuadroutm" src="{{ asset('img/Logo UTM Color 1.png')}}" alt="" srcset="">
+            <div class="cuadroutmdiv">
+                <img class="cuadroutm" src="{{ asset('img/Logo UTM Color 1.png')}}" alt="" srcset="">
+            </div>
 
             <div class="cuadrogris">
                 <div class="cuadrotitle">iSDC UPA 2011</div>
@@ -70,7 +72,9 @@
                 <div class="cuadrop">Segundo y Tercer Lugar, Mérida Yucatan</div>
             </div>
             <!-- Logo UsaLab Logros -->
-            <img class="cuadrousalab" src="{{ asset('img/logo Usalab 3-03 1.png') }}" alt="" srcset="">
+            <div class="cuadrousalabdiv">
+                <img class="cuadrousalab" src="{{ asset('img/logo Usalab 3-03 1.png') }}" alt="" srcset="">
+            </div>
             <div class="cuadroceleste">
                 <div class="cuadrotitle">CLIHC 2019</div>
                 <div class="cuadrop">Segundo Lugar, Panama</div>

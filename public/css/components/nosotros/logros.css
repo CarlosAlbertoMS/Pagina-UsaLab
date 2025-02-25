@@ -1,7 +1,7 @@
 /*Seccion logros*/
 .logrosContent {
     width: 100%;
-    height: 1744px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,11 +22,11 @@
 
 /*Contenido logros*/
 .logroscont {
-    width: 1280px;
-    height: 1600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 224px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center;
 }
 
@@ -91,17 +91,31 @@
 }
 
 /*Imagen UTM*/
-.cuadroutm {
+.cuadroutmdiv {
     width: 320px;
     height: 320px;
+    grid-column: -1;
+
+}
+
+.cuadroutm {
+    width: 100%;
+    height: 100%;
     transform: scale(0.9);
     flex-shrink: 0;
 }
 
 /*Imagen del UsaLab*/
-.cuadrousalab {
+.cuadrousalabdiv {
     width: 320px;
     height: 320px;
+    flex-shrink: 0;
+    grid-column: 1;
+}
+
+.cuadrousalab {
+    width: 100%;
+    height: 100%;
     transform: scale(1.4);
     object-fit: cover;
     flex-shrink: 0;
