@@ -1,7 +1,9 @@
-<div class="ContenedorTalleres">
+<div class="contenedorConcursos" id="concursos">
+
+    <div class="contenedorSubtituloConcursos subtituloConcursos"> Concursos </div>
 
     <!-- Primer carrusel -->
-    <div id="carouselConcursos1" class="carousel slide carousel-fade">
+    <div id="carouselConcursos1" class="carousel slide carousel-fade contenedorslider1">
         <div class="carousel-inner">
             <x-eventos.light-box_carousel 
                 diapositiva="slide-1" 

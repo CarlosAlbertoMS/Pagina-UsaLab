@@ -24,7 +24,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 160px;
-    align-self: flex-start; 
+    align-self: flex-start;
+    margin-bottom:80px; 
 }
 .contenedorSubtituloProfesores {
     display: flex;
@@ -33,14 +34,6 @@
     align-items: center;
     margin-top: 80px;
     margin-bottom: 0px;
-}
-
-
-
-/************************Estilo para el contenedor de toda la subseccion carrusel *********************/
-
-.contenedorCarrusel {
-    height: 418px;
 }
 
 /************************Estilo para el contenedor de toda la subseccion profesores titulo y cards *********************/
@@ -66,7 +59,7 @@
 
 /************************Estilo para el separador a final de la seccion *********************/
 
-.separador {
+.separadorCursos{
     width: 1320px;
     height: 2px;
     background: #DADADA;

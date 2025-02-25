@@ -171,19 +171,20 @@
             <div onclick="window.location.href='{{ url('/eventos') }}'" class="navbartxt">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
-                <div class="navbartxt">Últimos Eventos</div>
+                <!-- Redirección a la sección ultimos eventos -->
+                 <div onclick="window.location.href='{{ url('/eventos#ultimos-eventos') }}'" class="navbartxt">Últimos Eventos</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Conferencias</div>
+                <div onclick="window.location.href='{{ url('/eventos#conferencias') }}'" class="navbartxt">Conferencias</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Talleres</div>
+                <div onclick="window.location.href='{{ url('/eventos#talleres') }}'" class="navbartxt">Talleres</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Cursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#cursos') }}'" class="navbartxt">Cursos</div>
               </div>
               <div class="evcontent">
-                <div class="navbartxt">Concursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#concursos') }}'" class="navbartxt">Concursos</div>
               </div>
             </div>
           </div>

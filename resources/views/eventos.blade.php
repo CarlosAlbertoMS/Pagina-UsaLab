@@ -15,28 +15,20 @@
      <link href="{{ asset('css/components/eventos/talleres.css') }}" type="text/css" rel="stylesheet">
     <!-- Hoja de estilos para la subsecciòn "Concursos" -->
     <link href="{{ asset('css/components/eventos/concursos.css') }}" type="text/css" rel="stylesheet">
+    <!-- Hoja de estilos para la subsecciòn "Concursos" -->
+    <link href="{{ asset('css/components/eventos/eventos.css') }}" type="text/css" rel="stylesheet">
 
 @endsection
 
-@section('title', 'Investigaciones')
+@section('title', 'Eventos')
 @section('content')
-<!-- Contenedor para la ventana Investigación -->
+<!-- Contenedor para la ventana Eventos -->
 <div class="eventos-window-container">
-    <!-- Contenedor para la sección "Investigación" (Titulo y descripción) -->
-    <div class="eventos-container">
+    <div>
         <!-- Carrousel -->
         @section('img')
-            <div class="carousel-item active">
-                <img class="d-block w-10 img1" src="{{ asset('photos/slide8.png') }}" alt="Fourth slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-10 img1" src="{{ asset('photos/slide1.png') }}" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-10 img1" src="{{ asset('photos/slide3.png') }}" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-10 img1" src="{{ asset('photos/slide4.png') }}" alt="Third slide">
+            <div>
+                <img class="d-block w-10 img1" src="{{ asset('img/image0.png') }}" alt="First slide">
             </div>
         @endsection
 
@@ -46,7 +38,7 @@
             @endsection
     
             <!-- Descripción de la página Eventos -->
-            @section('contc','La investigación en UsaLab impulsa el avance en usabilidad e interacción humano-computadora (HCI). Nos enfocamos en contribuir al ámbito académico y ofrecer soluciones innovadoras para desafíos en el diseño de sistemas y productos interactivos, explorando nuevas metodologías y evaluando tecnologías emergentes.')
+            @section('contc','En UsaLab, valoramos los eventos como clave para el intercambio de conocimientos, la actualización profesional y la creación de redes en el campo de la usabilidad y la interacción humano-computadora (HCI). Organizamos y participamos en diversos eventos que fomentan la educación continua, la innovación y la colaboración.')
         </div>
 
         <!-- Sección "Ultimos Eventos" -->
@@ -67,7 +59,7 @@
         <script>
 document.addEventListener('DOMContentLoaded', function () {
     // Lista de IDs de los carruseles que necesitan el comportamiento personalizado
-    const targetCarousels = ['carouselProximosEventos', 'carouselTalleres', 'carouselConcursos1', 'carouselConcursos2'];
+    const targetCarousels = ['carouselProximosEventos', 'carouselTalleres', 'carouselConcursos1', 'carouselConcursos2', 'carouselCursos'];
 
     targetCarousels.forEach(id => {
         const myCarouselElement = document.getElementById(id);

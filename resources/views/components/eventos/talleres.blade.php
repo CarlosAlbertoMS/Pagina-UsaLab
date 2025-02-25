@@ -1,4 +1,4 @@
-<div class="contenedorTalleres">
+<div class="contenedorTalleres" id="talleres">
 <div class="contenedorSubtituloTalleres subtituloTalleres"> Talleres </div>
 
     <div id="carouselTalleres" class="carousel slide carousel-fade">
@@ -45,7 +45,7 @@
 
         </div>
     </div>
-    <div class="separador"></div> 
+    <div class="separadorTalleres"></div> 
 
 </div>
 

@@ -4,7 +4,7 @@
     <div class="ProximosEventosTitulo">Próximos eventos</div>
   </div>
 
-    <div class="ContenedorConferencias"> 
+    <div class="ContenedorConferencias" id="conferencias"> 
       <div class="ContenedorSubtituloConferencias SubtituloConferencias"> Conferencias </div>
 
     <div id="carouselProximosEventos" class="carousel slide carousel-fade">
@@ -78,7 +78,7 @@
 
         </div>
     </div>
-    <div class="separador"></div> 
+    <div class="separadorConferencias"></div> 
 
 </div>
 
