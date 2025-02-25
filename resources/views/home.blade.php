@@ -14,7 +14,7 @@
 @endsection
 
 <!-- Titulo de la pestaña de la página -->
-@section('title','Pagina de inicio')
+@section('title','Página de inicio')
 
 <!-- Empieza el contenido de la página -->
 @section('content')
