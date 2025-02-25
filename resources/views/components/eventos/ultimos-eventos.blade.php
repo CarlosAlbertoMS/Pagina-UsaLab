@@ -1,7 +1,7 @@
-<div class="ContenedorTituloUltimosEventos">
+<div class="ContenedorTituloUltimosEventos" id="ultimos-eventos">
     <div class="TituloUltimosEventos">Últimos Eventos</div>
 </div>
-<div class="ContenedorUltimosEventos" id="ultimos-eventos">
+<div class="ContenedorUltimosEventos">
 
 <div class="eventosContainer">
   <!-- Tarjeta HCI -->
