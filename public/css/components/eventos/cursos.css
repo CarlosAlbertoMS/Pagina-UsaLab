@@ -1,5 +1,14 @@
+/************************Estilo para el contenedor de toda la sección *********************/
+.contenedorCursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
 /************************Estilo para los titulos cursos y profesores *********************/
-.titulo {
+.subtitulo{
     color: #000;
     text-align: center;
     font-family: Montserrat;
@@ -9,23 +18,24 @@
     line-height: normal;
 }
 
-.contenedorTitulo {
+.contenedorSubtituloCursos{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 160px;
+    align-self: flex-start; 
+}
+.contenedorSubtituloProfesores {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
     margin-bottom: 0px;
 }
 
-/************************Estilo para el contenedor de toda la sección *********************/
-.contenedorCursos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
-}
+
 
 /************************Estilo para el contenedor de toda la subseccion carrusel *********************/
 

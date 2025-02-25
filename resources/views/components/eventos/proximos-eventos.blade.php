@@ -4,8 +4,8 @@
     <div class="ProximosEventosTitulo">Próximos eventos</div>
   </div>
 
-  <div class="ContenedorConferencias"> 
-    <div class="ContenedorSubtituloConferencias SubtituloConferencias"> Conferencias </div>
+    <div class="ContenedorConferencias"> 
+      <div class="ContenedorSubtituloConferencias SubtituloConferencias"> Conferencias </div>
 
     <div id="carouselProximosEventos" class="carousel slide carousel-fade">
 
@@ -58,8 +58,27 @@
   </div>
 
   <div class="contenedorConferencistas">
+        <div class="contenedorSubtituloConferencistas">
+            <div class="subtituloConferencistas">Conferencistas</div>
+        </div>
+        <div class="contenedorCards">
 
-  </div>  
+            <x-eventos.cards-eventos color="rgb(79, 158, 190)" imagen="{{ asset('photos/Ing. Carlos Alberto.png') }}"
+                titulo="Ing. Carlos Alberto Martínez Sandoval" />
+
+            <x-eventos.cards-eventos color="rgb(79, 158, 190)" imagen="{{ asset('photos/Ing. David.png') }}"
+                titulo="Ing. David del Castillo Lale" />
+
+            <x-eventos.cards-eventos color="rgb(79, 158, 190)" imagen="{{ asset('photos/Mtro. Mario.png') }}"
+                titulo="Mtro. Mario Moreno Rocha" />
+
+            <x-eventos.cards-eventos color="rgb(79, 158, 190)" imagen="{{ asset('photos/Dr. Raúl.png') }}"
+                titulo="Dr. Raúl Cruz Barbosa" />
+
+
+        </div>
+    </div>
+    <div class="separador"></div> 
 
 </div>
 
