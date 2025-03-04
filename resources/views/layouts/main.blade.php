@@ -253,7 +253,7 @@
             <p onclick="window.location.href='{{ url('/servicios-academia') }}'" class="optiontxt">Academia</p>
             <p onclick="window.location.href='{{ url('/investigaciones') }}'" class="optiontxt">Investigaciones</p>
             <p onclick="window.location.href='{{ url('/academica') }}'" class="optiontxt">Formación Académica</p>
-            <p onclick="window.location.href='{{ url('/en-construccion') }}'" class="optiontxt">Eventos</p>
+            <p onclick="window.location.href='{{ url('/eventos') }}'" class="optiontxt">Eventos</p>
           </div>
         </div>
       </div>
