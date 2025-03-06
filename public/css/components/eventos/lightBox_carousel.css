@@ -1,0 +1,126 @@
+/* Carousel */
+.contenedorImageText {
+    display: flex;
+    width: 1126px;
+    height: 114px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.tipografiaImageText {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* --------- Animaciones del carousel --------- */
+
+/* Reducir el brillo de la imagen */
+.slide-image.dimmed {
+    filter: brightness(0.5);
+    transition: filter 0.5s ease;
+}
+
+/* Animaciones para el título */
+.slide-title {
+    transition: all 0.5s ease;
+}
+
+.slide-title.shrink {
+    transform: translateX(-28%) scale(0.7);
+    /*opacity: 0.7;*/
+}
+
+/* Animaciones para el texto adicional */
+.extra-text {
+    width: 667px;
+    height: 147px;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    right: 5%; /* Ajustar según diseño */
+    margin-top: 65px;/*top: 50%; /* Centrado vertical */
+    transform: translateY(-50%) translateX(20%); /* Desplazamiento inicial */
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Texto adicional cuando se muestra */
+.extra-text.show {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0); /* Animación hacia su posición final */
+
+}
+
+.btn-mas-info {
+    /* Layout */
+    width: 280.64px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    /* Style */
+    border-radius: var(--Corner-Full, 1000px);
+    background: #06052D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    /* Text & Border */
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    
+    /* Position */
+    margin-top: 35px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity .3s ease-in-out; /* Reduced from default .6s */
+}
+
+.carousel-fade .carousel-item.active.item {
+    transition: opacity .3s ease-in-out; /* Reduced from default .6s */
+}
+
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+    transition: opacity .3s ease-in-out; /* Reduced from default .6s */
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/* Responsividad para textos */
+@media (max-width: 768px) {
+    .tipografiaImage1Text,
+    .tipografiaImage2Text,
+    .tipografiaImage3Text {
+        font-size: 45px; /* Reducir tamaño de títulos */
+    }
+
+    .extra-text {
+        font-size: 1rem; /* Ajustar tamaño del texto adicional */
+        right: 5%; /* Ajustar posición para pantallas pequeñas */
+    }
+}

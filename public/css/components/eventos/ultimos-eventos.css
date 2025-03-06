@@ -1,0 +1,128 @@
+.TituloUltimosEventos {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ContenedorTituloUltimosEventos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+.ContenedorUltimosEventos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+/************ Contenedor cards de los eventos ***************/
+.eventosContainer {
+    width: 1576px;
+    height: 832px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-left: 152px;
+    margin-top: 80px;
+    display: flex;
+    gap: 24px;
+}
+
+.scroll-container {
+    display: inline-block;
+}
+
+/************* Tarjetas ultimos eventos *************/
+.event-card {
+    display: flex;
+    width: 624px;
+    height: 832px;
+    flex-shrink: 0;
+    border-radius: var(--Corner-Medium, 12px);
+    background: rgba(94, 159, 186, 0.20);
+    justify-content: center;
+}
+
+/***** Titulo de tarjeta ******/
+.title-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+.title-event-card2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.title-event-card3 {
+    color: #FFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.55px;
+}
+
+/*****Contenido de la tarjeta*****/
+.text-event-card {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+/****** Contenido de la tarjetas ******/
+.content-event-card {
+    width: 528px;
+    height: 184px;
+    flex-shrink: 0;
+}
+
+#event1 {
+    margin-top: 576px;
+}
+
+#event2 {
+    margin-top: 504px;
+}
+
+#event3 {
+    margin-top: 632px;
+}
+
+#event1-card {
+    background: url("../../../photos/hci.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event2-card {
+    background: url("../../../photos/chi1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}
+
+#event3-card {
+    background: url("../../../photos/feria1.png") lightgray -255.733px 0px / 197.619% 100% no-repeat;
+}

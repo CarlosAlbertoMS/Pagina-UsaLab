@@ -168,22 +168,23 @@
 
           <!-- Seccion Eventos -->
           <div class="eventos">
-            <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Eventos</div>
+            <div onclick="window.location.href='{{ url('/eventos') }}'" class="navbartxt">Eventos</div>
             <div class="eventosCont">
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Últimos Eventos</div>
+                <!-- Redirección a la sección ultimos eventos -->
+                 <div onclick="window.location.href='{{ url('/eventos#ultimos-eventos') }}'" class="navbartxt">Últimos Eventos</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Conferencias</div>
+                <div onclick="window.location.href='{{ url('/eventos#conferencias') }}'" class="navbartxt">Conferencias</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Talleres</div>
+                <div onclick="window.location.href='{{ url('/eventos#talleres') }}'" class="navbartxt">Talleres</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Cursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#cursos') }}'" class="navbartxt">Cursos</div>
               </div>
               <div class="evcontent">
-                <div onclick="window.location.href='{{ url('/en-construccion') }}'" class="navbartxt">Concursos</div>
+                <div onclick="window.location.href='{{ url('/eventos#concursos') }}'" class="navbartxt">Concursos</div>
               </div>
             </div>
           </div>
@@ -252,7 +253,7 @@
             <p onclick="window.location.href='{{ url('/servicios-academia') }}'" class="optiontxt">Academia</p>
             <p onclick="window.location.href='{{ url('/investigaciones') }}'" class="optiontxt">Investigaciones</p>
             <p onclick="window.location.href='{{ url('/academica') }}'" class="optiontxt">Formación Académica</p>
-            <p onclick="window.location.href='{{ url('/en-construccion') }}'" class="optiontxt">Eventos</p>
+            <p onclick="window.location.href='{{ url('/eventos') }}'" class="optiontxt">Eventos</p>
           </div>
         </div>
       </div>
